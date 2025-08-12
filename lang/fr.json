@@ -166,7 +166,7 @@
                                 "label": "Max"
                             }
                         },
-                        "stress": {
+                        "Stress": {
                             "value": {
                                 "label": "Actuel"
                             },
@@ -183,7 +183,7 @@
                     }
                 },
                 "hordeDamage": "Dégâts de la Horde",
-                "horderHp": "Horde/BLESS."
+                "horderHp": "Horde/BLESS"
             },
             "Character": {
                 "advantageSources": {
@@ -245,7 +245,7 @@
                         "label": "Partenaire"
                     },
                     "resources": {
-                        "stress": {
+                        "Stress": {
                             "value": {
                                 "label": "Stress"
                             },
@@ -323,7 +323,7 @@
                 "giveSpotlight": "Donner la vedette",
                 "requestingSpotlight": "Demande envoyée",
                 "requestSpotlight": "Demander la vedette",
-                "openCountdowns": "Décomptes"
+                "openCountdowns": "Comptes à rebours"
             },
             "ContextMenu": {
                 "disableEffect": "Désactiver l'effet",
@@ -336,7 +336,7 @@
                 "useItem": "Utiliser l'objet"
             },
             "Countdown": {
-                "addCountdown": "Ajouter un décompte",
+                "addCountdown": "Ajouter un compte à rebours",
                 "FIELDS": {
                     "countdowns": {
                         "element": {
@@ -363,11 +363,11 @@
                         }
                     }
                 },
-                "newCountdown": "Nouveau décompte",
+                "newCountdown": "Nouveau compte à rebours",
                 "openOwnership": "Modifier la propriété du joueur",
-                "removeCountdownText": "Êtes-vous sûr de vouloir supprimer le décompte : {name} ?",
-                "removeCountdownTitle": "Supprimer le décompte",
-                "title": "Décomptes de {type}",
+                "removeCountdownText": "Êtes-vous sûr de vouloir supprimer le compte à rebours : {name} ?",
+                "removeCountdownTitle": "Supprimer le compte à rebours",
+                "title": "Comptes à rebours de {type}",
                 "toggleSimple": "Basculer vers la vue simple",
                 "types": {
                     "narrative": "Narratif",
@@ -379,14 +379,14 @@
                 "text": "Êtes-vous sûr de vouloir supprimer {name} ?"
             },
             "DamageReduction": {
-                "armorMarks": "Marques d'armure",
-                "armorWithStress": "Dépenser 1 stress pour utiliser une marque supplémentaire",
+                "armorMarks": "Marques d'Armure",
+                "armorWithStress": "Ajouter 1 Stress pour pouvoir ajouter une Marque d'Armure supplémentaire",
                 "thresholdImmunities": "Immunités aux seuils",
-                "stress": "Stress",
-                "stressReduction": "Réduire par stress",
+                "Stress": "Stress",
+                "StressReduction": "Réduire par points de Stress",
                 "title": "Réduction des dégâts",
-                "unncessaryStress": "Vous n'avez pas besoin de dépenser de stress",
-                "usedMarks": "Marques utilisées"
+                "unncessaryStress": "Vous n'avez pas besoin d'ajouter du Stress",
+                "usedMarks": "Points ajoutés"
             },
             "DeathMove": {
                 "selectMove": "Sélectionner une manœuvre",
@@ -398,19 +398,19 @@
                     "title": "Repos long",
                     "moves": "Manœuvres de repos long ({current}/{max})",
                     "clearStress": {
-                        "description": "Décrivez comment vous vous défoulez ou vous reprenez en main, puis effacez tout le stress marqué.",
-                        "name": "Effacer le stress"
+                        "description": "Décrivez comment vous vous défoulez ou vous reprenez en main, puis effacez tout le Stress marqué.",
+                        "name": "Effacer le Stress"
                     },
                     "prepare": {
                         "description": "Décrivez comment vous vous préparez pour l'aventure du lendemain, puis gagnez un Espoir. Si vous choisissez de vous préparer avec un ou plusieurs membres de votre groupe, vous pouvez chacun prendre deux Espoirs.",
                         "name": "Se préparer"
                     },
                     "repairArmor": {
-                        "description": "Décrivez comment vous passez du temps à réparer votre armure et effacez toutes les Marques d'armure. Vous pouvez également le faire pour l'armure d'un allié.",
+                        "description": "Décrivez comment vous passez du temps à réparer votre armure et effacez toutes les Marques d'Armure. Vous pouvez également le faire pour l'armure d'un allié.",
                         "name": "Réparer l'armure"
                     },
                     "tendToWounds": {
-                        "description": "Décrivez comment vous vous soignez et retirez tous les Blessures marquées. Vous pouvez également le faire sur un allié.",
+                        "description": "Décrivez comment vous vous soignez et effacez toutes les Blessures. Vous pouvez également le faire sur un allié.",
                         "name": "Soigner les blessures"
                     },
                     "workOnAProject": {
@@ -426,12 +426,12 @@
                         "description": "Décrivez comment vous vous soignez à la hâte, puis effacez un nombre de Blessures égales à 1d4 + votre niveau. Vous pouvez le faire pour un allié."
                     },
                     "clearStress": {
-                        "name": "Effacer le stress",
+                        "name": "Effacer le Stress",
                         "description": "Décrivez comment vous vous défoulez ou vous reprenez en main, puis effacez un nombre de Stress égal à 1d4 + votre niveau."
                     },
                     "repairArmor": {
                         "name": "Réparer l'armure",
-                        "description": "Décrivez comment vous réparez rapidement votre armure, puis effacez un nombre de Marques d'armure égal à 1d4 + votre niveau. Vous pouvez le faire pour l'armure d'un allié."
+                        "description": "Décrivez comment vous réparez rapidement votre armure, puis effacez un nombre de Marques d'Armure égal à 1d4 + votre niveau. Vous pouvez le faire pour l'armure d'un allié."
                     },
                     "prepare": {
                         "name": "Se préparer",
@@ -456,17 +456,17 @@
                     },
                     "armored": {
                         "name": "Armuré",
-                        "description": "Lorsque votre compagnon subit des dégâts, vous pouvez marquer une de vos Marques d'armure au lieu de marquer un de ses Stress."
+                        "description": "Lorsque votre compagnon subit des dégâts, vous pouvez ajouter une de vos Marques d'Armure au lieu d'ajouter un de ses points de Stress."
                     },
                     "bonded": {
                         "name": "Lié",
-                        "description": "Lorsque vous marquez votre dernière Blessure, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de cases de Stress non marquées qu'il a et marquez-les. Si vous obtenez un 6, votre compagnon vous aide à vous relever. Effacez votre dernière Blessure et revenez dans la scène."
+                        "description": "Lorsque vous ajoutez votre dernière Blessure, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6, votre compagnon vous aide à vous relever. Effacez votre dernière Blessure et revenez dans la scène."
                     }
                 },
                 "choiceDescriptions": {
-                    "attributes": "Gagnez un bonus de +1 à deux traits de personnage non marqués et marquez-les.",
+                    "attributes": "Gagnez un bonus de +1 à deux traits de personnage non cochés et cochez-les.",
                     "hitPointSlots": "Gagnez un emplacement de Blessure de façon permanente.",
-                    "stressSlots": "Gagnez un emplacement de Stress de façon permanente.",
+                    "StressSlots": "Gagnez un emplacement de Stress de façon permanente.",
                     "experiences": "Gagnez un bonus de +1 à deux expériences de façon permanente.",
                     "domainCard": "Choisissez une carte de domaine supplémentaire de votre niveau ou inférieur dans un domaine auquel vous avez accès (jusqu'au niveau {maxLevel})",
                     "evasion": "Gagnez un bonus de +1 à votre Évasion de façon permanente.",
@@ -482,9 +482,9 @@
                 "navigateToLevelup": "Retour à la montée de niveau",
                 "navigateToSummary": "Vers le résumé",
                 "options": {
-                    "trait": "Gagnez un bonus de +1 à deux traits de personnage non marqués et marquez-les.",
+                    "trait": "Gagnez un bonus de +1 à deux traits de personnage non cochés et cochez-les.",
                     "hitPoint": "Gagnez un emplacement de Blessure de façon permanente.",
-                    "stress": "Gagnez un emplacement de Stress de façon permanente.",
+                    "Stress": "Gagnez un emplacement de Stress de façon permanente.",
                     "experience": "Gagnez un bonus de +1 à deux expériences de façon permanente.",
                     "domainCard": "Choisissez une carte de domaine supplémentaire de votre niveau ou inférieur dans un domaine auquel vous avez accès (jusqu'au niveau {maxLevel})",
                     "evasion": "Gagnez un bonus de +1 à votre Évasion de façon permanente.",
@@ -494,10 +494,10 @@
                     "intelligent": "Votre compagnon gagne un bonus permanent de +1 à une Expérience de compagnon de votre choix.",
                     "lightInTheDark": "Gagnez un emplacement d'Espoir supplémentaire pour votre personnage.",
                     "creatureComfort": "Une fois par repos, lorsque vous prenez un moment de calme pour donner de l'amour et de l'attention à votre compagnon, vous pouvez gagner un Espoir ou vous pouvez tous les deux effacer un Stress.",
-                    "armored": "Lorsque votre compagnon subit des dégâts, vous pouvez marquer une de vos Marques d'armure au lieu de marquer un de ses Stress.",
+                    "armored": "Lorsque votre compagnon subit des dégâts, vous pouvez ajouter une de vos Marques d'Armure au lieu d'ajouter un Stress.",
                     "vicious": "Augmentez le dé de dégâts ou la portée de votre compagnon d'un cran (d6 en d8, Proche en Loin, etc.)",
                     "resilient": "Votre compagnon gagne un emplacement de Stress supplémentaire.",
-                    "bonded": "Lorsque vous marquez votre dernière Blessure, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de cases de Stress non marquées qu'il a et marquez-les. Si vous obtenez un 6, votre compagnon vous aide à vous relever. Effacez votre dernière Blessure et revenez dans la scène.",
+                    "bonded": "Lorsque vous ajoutez votre dernière Blessure, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6, votre compagnon vous aide à vous relever. Effacez votre dernière Blessure et revenez dans la scène.",
                     "aware": "Votre compagnon gagne un bonus permanent de +2 à son Évasion."
                 },
                 "selections": {
@@ -510,7 +510,7 @@
                     "levelAdvancements": "Avancements de niveau",
                     "proficiencyIncrease": "Maîtrise augmentée : {proficiency}",
                     "hpIncrease": "Blessures augmentées : {hitPoints}",
-                    "stressIncrease": "Stress augmenté : {stress}",
+                    "StressIncrease": "Stress augmenté : {Stress}",
                     "evasionIncrease": "Évasion augmentée : {evasion}",
                     "damageThresholdMajorIncrease": "Majeur : {threshold}",
                     "damageThresholdSevereIncrease": "Sévère : {threshold}",
@@ -537,13 +537,13 @@
                 "tier3": {
                     "label": "Niveaux 5-7",
                     "infoLabel": "Au niveau 5, prenez une Expérience supplémentaire et effacez toutes les marques sur les Traits de personnage.",
-                    "pretext": "Lorsque vous montez de niveau, enregistrez-le sur votre feuille de personnage, puis choisissez deux options dans la liste ci-dessous ou une option non marquée du niveau précédent.",
+                    "pretext": "Lorsque vous montez de niveau, enregistrez-le sur votre feuille de personnage, puis choisissez deux options dans la liste ci-dessous ou une option non cochée du niveau précédent.",
                     "posttext": "Prenez une carte de domaine supplémentaire de votre niveau ou inférieur dans un domaine auquel vous avez accès."
                 },
                 "tier4": {
                     "label": "Niveaux 8-10",
                     "infoLabel": "Au niveau 8, prenez une Expérience supplémentaire et effacez toutes les marques sur les Traits de personnage.",
-                    "pretext": "Lorsque vous montez de niveau, enregistrez-le sur votre feuille de personnage, puis choisissez deux options dans la liste ci-dessous ou une option non marquée du niveau précédent.",
+                    "pretext": "Lorsque vous montez de niveau, enregistrez-le sur votre feuille de personnage, puis choisissez deux options dans la liste ci-dessous ou une option non cochée du niveau précédent.",
                     "posttext": "Prenez une carte de domaine supplémentaire de votre niveau ou inférieur dans un domaine auquel vous avez accès."
                 },
                 "title": "Montée de niveau de {actor}"
@@ -684,11 +684,11 @@
                 },
                 "fortified": {
                     "name": "Fortifiée",
-                    "description": "Lorsque vous marquez une Marque d'armure, vous réduisez la gravité d'une attaque de deux seuils au lieu d'un seul.",
+                    "description": "Lorsque vous ajoutez une Marque d'Armure, vous réduisez la gravité d'une attaque de deux seuils au lieu d'un seul.",
                     "effects": {
                         "fortified": {
                             "name": "Fortifiée",
-                            "description": "Lorsque vous marquez une Marque d'armure, vous réduisez la gravité d'une attaque de deux seuils au lieu d'un seul."
+                            "description": "Lorsque vous ajoutez une Marque d'Armure, vous réduisez la gravité d'une attaque de deux seuils au lieu d'un seul."
                         }
                     }
                 },
@@ -713,52 +713,52 @@
                     }
                 },
                 "hopeful": {
-                    "name": "Pleine d'espoir",
-                    "description": "Lorsque vous devriez dépenser un Espoir, vous pouvez marquer une Marque d'armure à la place.",
+                    "name": "Pleine d'Espoir",
+                    "description": "Lorsque vous devriez dépenser un Espoir, vous pouvez ajouter une Marque d'Armure à la place.",
                     "actions": {
                         "hope": {
                             "name": "Espoir",
-                            "description": "Lorsque vous devriez dépenser un Espoir, vous pouvez marquer une Marque d'armure à la place."
+                            "description": "Lorsque vous devriez dépenser un Espoir, vous pouvez ajouter une Marque d'Armure à la place."
                         }
                     }
                 },
                 "impenetrable": {
                     "name": "Impénétrable",
-                    "description": "Une fois par repos court, lorsque vous devriez marquer votre dernière Blessure, vous pouvez marquer un Stress à la place.",
+                    "description": "Une fois par repos court, lorsque vous devriez ajouter votre dernière Blessure, vous pouvez ajouter un Stress à la place.",
                     "actions": {
                         "impenetrable": {
                             "name": "Impénétrable",
-                            "description": "Une fois par repos court, lorsque vous devriez marquer votre dernière Blessure, vous pouvez marquer un Stress à la place."
+                            "description": "Une fois par repos court, lorsque vous devriez ajouter votre dernière Blessure, vous pouvez ajouter un Stress à la place."
                         }
                     }
                 },
                 "magical": {
                     "name": "Magique",
-                    "description": "Vous ne pouvez pas marquer une Marque d'armure pour réduire les dégâts physiques.",
+                    "description": "Vous ne pouvez pas ajouter une Marque d'Armure pour réduire les dégâts physiques.",
                     "effects": {
                         "magical": {
                             "name": "Magique",
-                            "description": "Vous ne pouvez pas marquer une Marque d'armure pour réduire les dégâts physiques."
+                            "description": "Vous ne pouvez pas ajouter une Marque d'Armure pour réduire les dégâts physiques."
                         }
                     }
                 },
                 "painful": {
                     "name": "Douloureuse",
-                    "description": "Chaque fois que vous marquez une Marque d'armure, vous devez marquer un Stress.",
+                    "description": "Chaque fois que vous ajoutez une Marque d'Armure, vous devez ajouter un Stress.",
                     "actions": {
                         "pain": {
                             "name": "Douleur",
-                            "description": "Chaque fois que vous marquez une Marque d'armure, vous devez marquer un Stress."
+                            "description": "Chaque fois que vous ajoutez une Marque d'Armure, vous devez ajouter un Stress."
                         }
                     }
                 },
                 "physical": {
                     "name": "Physique",
-                    "description": "Vous ne pouvez pas marquer une Marque d'armure pour réduire les dégâts magiques.",
+                    "description": "Vous ne pouvez pas ajouter une Marque d'Armure pour réduire les dégâts magiques.",
                     "effects": {
                         "physical": {
                             "name": "Physique",
-                            "description": "Vous ne pouvez pas marquer une Marque d'armure pour réduire les dégâts magiques."
+                            "description": "Vous ne pouvez pas ajouter une Marque d'Armure pour réduire les dégâts magiques."
                         }
                     }
                 },
@@ -774,27 +774,27 @@
                 },
                 "reinforced": {
                     "name": "Renforcée",
-                    "description": "Lorsque vous marquez votre dernière Marque d'armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Marque d'armure.",
+                    "description": "Lorsque vous ajoutez votre dernière Marque d'Armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Marque d'Armure.",
                     "actions": {
                         "reinforce": {
                             "name": "Renforcer",
-                            "description": "Lorsque vous marquez votre dernière Marque d'armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Marque d'armure."
+                            "description": "Lorsque vous ajoutez votre dernière Marque d'Armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Marque d'Armure."
                         }
                     },
                     "effects": {
                         "reinforced": {
                             "name": "Renforcée",
-                            "description": "Lorsque vous marquez votre dernière Marque d'armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Marque d'armure."
+                            "description": "Lorsque vous ajoutez votre dernière Marque d'Armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Marque d'Armure."
                         }
                     }
                 },
                 "resilient": {
                     "name": "Résiliente",
-                    "description": "Avant de marquer votre dernière Marque d'armure, faites un jet de d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans marquer de Marque d'armure.",
+                    "description": "Avant d'ajouter votre dernière Marque d'Armure, faites un jet de d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans ajouter de Marque d'Armure.",
                     "actions": {
                         "resilient": {
                             "name": "Résiliente",
-                            "description": "Avant de marquer votre dernière Marque d'armure, faites un jet de d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans marquer de Marque d'armure."
+                            "description": "Avant d'ajouter votre dernière Marque d'Armure, faites un jet de d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans ajouter de Marque d'Armure."
                         }
                     }
                 },
@@ -810,21 +810,21 @@
                 },
                 "shifting": {
                     "name": "Changeante",
-                    "description": "Lorsque vous êtes ciblé par une attaque, vous pouvez marquer une Marque d'armure pour donner un désavantage au jet d'attaque contre vous.",
+                    "description": "Lorsque vous êtes ciblé par une attaque, vous pouvez ajouter un Marque d'Armure pour donner un désavantage au jet d'attaque contre vous.",
                     "actions": {
                         "shift": {
                             "name": "Changer",
-                            "description": "Lorsque vous êtes ciblé par une attaque, vous pouvez marquer une Marque d'armure pour donner un désavantage au jet d'attaque contre vous."
+                            "description": "Lorsque vous êtes ciblé par une attaque, vous pouvez ajouter un Marque d'Armure pour donner un désavantage au jet d'attaque contre vous."
                         }
                     }
                 },
                 "timeslowing": {
                     "name": "Ralentisseur de temps",
-                    "description": "Marquez une Marque d'armure pour faire un jet de d4 et ajouter son résultat en bonus à votre Évasion contre une attaque entrante.",
+                    "description": "Ajoutez une Marque d'Armure pour faire un jet de d4 et ajouter son résultat en bonus à votre Évasion contre une attaque entrante.",
                     "actions": {
                         "slowTime": {
                             "name": "Ralentir le temps",
-                            "description": "Marquez une Marque d'armure pour faire un jet de d4 et ajouter son résultat en bonus à votre Évasion contre une attaque entrante."
+                            "description": "Ajoutez une Marque d'Armure pour faire un jet de d4 et ajouter son résultat en bonus à votre Évasion contre une attaque entrante."
                         }
                     }
                 },
@@ -956,23 +956,23 @@
             "HealingType": {
                 "hitPoints": {
                     "name": "Blessures",
-                    "abbreviation": "BLESS."
+                    "abbreviation": "BLESS"
                 },
-                "stress": {
+                "Stress": {
                     "name": "Stress",
                     "abbreviation": "STR"
                 },
                 "hope": {
                     "name": "Espoir",
-                    "abbreviation": "ES"
+                    "abbreviation": "ESP"
                 },
                 "armor": {
-                    "name": "Marque d'armure",
-                    "abbreviation": "MA"
+                    "name": "Marque d'Armure",
+                    "abbreviation": "ARM"
                 },
                 "fear": {
                     "name": "Peur",
-                    "abbreviation": "PE"
+                    "abbreviation": "PEUR"
                 }
             },
             "ItemResourceProgression": {
@@ -1071,7 +1071,7 @@
                     "short": "FIN",
                     "verb": {
                         "control": "Contrôler",
-                        "hide": "Cacher",
+                        "hide": "Se Cacher",
                         "tinker": "Bricoler"
                     }
                 },
@@ -1089,7 +1089,7 @@
                     "short": "PRE",
                     "verb": {
                         "charm": "Charmer",
-                        "perform": "Jouer",
+                        "perform": "Représenter",
                         "deceive": "Tromper"
                     }
                 },
@@ -1097,7 +1097,7 @@
                     "name": "Savoir",
                     "short": "SAV",
                     "verb": {
-                        "recall": "Se souvenir",
+                        "recall": "Se Souvenir",
                         "analyze": "Analyser",
                         "comprehend": "Comprendre"
                     }
@@ -1125,12 +1125,12 @@
                     }
                 },
                 "bouncing": {
-                    "name": "Rebondissante",
-                    "description": "Marquez 1 point de Stress ou plus pour toucher ce nombre de cibles à portée de l'attaque.",
+                    "name": "Bondissante",
+                    "description": "Ajoutez 1 point de Stress ou plus pour toucher ce nombre de cibles à portée de l'attaque.",
                     "actions": {
                         "bounce": {
                             "name": "Rebond",
-                            "description": "Marquez 1 point de Stress ou plus pour toucher ce nombre de cibles à portée de l'attaque."
+                            "description": "Ajoutez 1 point de Stress ou plus pour toucher ce nombre de cibles à portée de l'attaque."
                         }
                     }
                 },
@@ -1156,21 +1156,21 @@
                 },
                 "burning": {
                     "name": "Brûlante",
-                    "description": "Quand vous obtenez un 6 sur un jet de dégâts, la cible doit marquer 1 point de Stress.",
+                    "description": "Quand vous obtenez un 6 sur un jet de dégâts, la cible doit ajouter 1 point de Stress.",
                     "actions": {
                         "burn": {
                             "name": "Brûlure",
-                            "description": "Quand vous obtenez un 6 sur un jet de dégâts, la cible doit marquer 1 point de Stress."
+                            "description": "Quand vous obtenez un 6 sur un jet de dégâts, la cible doit ajouter 1 point de Stress."
                         }
                     }
                 },
                 "charged": {
                     "name": "Chargée",
-                    "description": "Marquez 1 point de Stress pour gagner un bonus de +1 à votre Maîtrise lors d'une attaque avec l'arme principale.",
+                    "description": "Ajoutez 1 point de Stress pour gagner un bonus de +1 à votre Maîtrise lors d'une attaque avec l'arme principale.",
                     "actions": {
                         "markStress": {
                             "name": "Charge",
-                            "description": "Marquez 1 point de Stress pour gagner un bonus de +1 à votre Maîtrise lors d'une attaque avec l'arme principale."
+                            "description": "Ajoutez 1 point de Stress pour gagner un bonus de +1 à votre Maîtrise lors d'une attaque avec l'arme principale."
                         }
                     },
                     "effects": {
@@ -1202,21 +1202,21 @@
                 },
                 "deadly": {
                     "name": "Mortelle",
-                    "description": "Lorsque vous infligez des dégâts Graves, la cible doit marquer une Blessure supplémentaire.",
+                    "description": "Lorsque vous infligez des dégâts Graves, la cible doit ajouter une Blessure supplémentaire.",
                     "actions": {
                         "extraDamage": {
                             "name": "Mortalité",
-                            "description": "Lorsque vous infligez des dégâts Graves, la cible doit marquer une Blessure supplémentaire."
+                            "description": "Lorsque vous infligez des dégâts Graves, la cible doit ajouter une Blessure supplémentaire."
                         }
                     }
                 },
                 "deflecting": {
                     "name": "Déviante",
-                    "description": "Quand on vous attaque, marquez un Emplacement d'Armure pour ajouter votre score d'Armure à votre Évasion contre cette attaque.",
+                    "description": "Quand on vous attaque, ajoutez une Marque d'Armure pour ajouter votre score d'Armure à votre Évasion contre cette attaque.",
                     "actions": {
                         "deflect": {
                             "name": "Déviation",
-                            "description": "Quand on vous attaque, marquez un Emplacement d'Armure pour ajouter votre score d'Armure à votre Évasion contre cette attaque."
+                            "description": "Quand on vous attaque, ajoutez une Marque d'Armure pour ajouter votre score d'Armure à votre Évasion contre cette attaque."
                         }
                     },
                     "effects": {
@@ -1228,11 +1228,11 @@
                 },
                 "destructive": {
                     "name": "Destructrice",
-                    "description": "-1 à l'Agilité ; en cas de réussite d'une attaque, tous les adversaires à portée Très Proche doivent marquer 1 point de Stress.",
+                    "description": "-1 à l'Agilité ; en cas de réussite d'une attaque, tous les adversaires à portée Très Proche doivent ajouter 1 point de Stress.",
                     "actions": {
                         "attack": {
                             "name": "Destruction",
-                            "description": "En cas de réussite d'une attaque, tous les adversaires à portée Très Proche doivent marquer 1 point de Stress."
+                            "description": "En cas de réussite d'une attaque, tous les adversaires à portée Très Proche doivent ajouter 1 point de Stress."
                         }
                     },
                     "effects": {
@@ -1244,11 +1244,11 @@
                 },
                 "devastating": {
                     "name": "Dévastatrice",
-                    "description": "Avant un jet d'attaque, vous pouvez marquer 1 point de Stress pour utiliser un d20 pour vos dégâts.",
+                    "description": "Avant un jet d'attaque, vous pouvez ajouter 1 point de Stress pour utiliser un d20 pour vos dégâts.",
                     "actions": {
                         "devastate": {
                             "name": "Dévastation",
-                            "description": "Avant un jet d'attaque, vous pouvez marquer 1 point de Stress pour utiliser un d20 pour vos dégâts."
+                            "description": "Avant un jet d'attaque, vous pouvez ajouter 1 point de Stress pour utiliser un d20 pour vos dégâts."
                         }
                     }
                 },
@@ -1373,11 +1373,11 @@
                     }
                 },
                 "lockedOn": {
-                    "name": "Verrouillage de Cible",
+                    "name": "Assurée",
                     "description": "En cas de réussite d'une attaque, votre prochaine attaque avec votre arme principale contre la même cible réussit automatiquement.",
                     "actions": {
                         "lockOn": {
-                            "name": "Verrouiller",
+                            "name": "Assurer",
                             "description": "En cas de réussite d'une attaque, votre prochaine attaque avec votre arme principale contre la même cible réussit automatiquement."
                         }
                     }
@@ -1394,11 +1394,11 @@
                 },
                 "lucky": {
                     "name": "Chanceuse",
-                    "description": "En cas d'échec d'une attaque, vous pouvez marquer 1 point de Stress pour la relancer.",
+                    "description": "En cas d'échec d'une attaque, vous pouvez ajouter 1 point de Stress pour la relancer.",
                     "actions": {
                         "luck": {
                             "name": "Chance",
-                            "description": "En cas d'échec d'une attaque, vous pouvez marquer 1 point de Stress pour la relancer."
+                            "description": "En cas d'échec d'une attaque, vous pouvez ajouter 1 point de Stress pour la relancer."
                         }
                     }
                 },
@@ -1414,11 +1414,11 @@
                 },
                 "painful": {
                     "name": "Douloureuse",
-                    "description": "À chaque réussite d'attaque, vous devez marquer 1 point de Stress.",
+                    "description": "À chaque réussite d'attaque, vous devez ajouter 1 point de Stress.",
                     "actions": {
                         "pain": {
                             "name": "Douleur",
-                            "description": "À chaque réussite d'attaque, vous devez marquer 1 point de Stress."
+                            "description": "À chaque réussite d'attaque, vous devez ajouter 1 point de Stress."
                         }
                     }
                 },
@@ -1450,11 +1450,11 @@
                 },
                 "persuasive": {
                     "name": "Persuasive",
-                    "description": "Avant de faire un jet de Présence, vous pouvez marquer 1 point de Stress pour gagner un bonus de +2 au résultat.",
+                    "description": "Avant de faire un jet de Présence, vous pouvez ajouter 1 point de Stress pour gagner un bonus de +2 au résultat.",
                     "actions": {
                         "persuade": {
                             "name": "Persuasion",
-                            "description": "Avant de faire un jet de Présence, vous pouvez marquer 1 point de Stress pour gagner un bonus de +2 au résultat."
+                            "description": "Avant de faire un jet de Présence, vous pouvez ajouter 1 point de Stress pour gagner un bonus de +2 au résultat."
                         }
                     },
                     "effects": {
@@ -1496,11 +1496,11 @@
                 },
                 "quick": {
                     "name": "Rapide",
-                    "description": "Quand vous faites une attaque, vous pouvez marquer 1 point de Stress pour cibler une autre créature à portée.",
+                    "description": "Quand vous faites une attaque, vous pouvez ajouter 1 point de Stress pour cibler une autre créature à portée.",
                     "actions": {
                         "quick": {
                             "name": "Rapidité",
-                            "description": "Quand vous faites une attaque, vous pouvez marquer 1 point de Stress pour cibler une autre créature à portée."
+                            "description": "Quand vous faites une attaque, vous pouvez ajouter 1 point de Stress pour cibler une autre créature à portée."
                         }
                     }
                 },
@@ -1516,11 +1516,11 @@
                 },
                 "reloading": {
                     "name": "Rechargeable",
-                    "description": "Après une attaque, jetez un d6. Sur un 1, vous devez marquer 1 point de Stress pour recharger cette arme avant de pouvoir tirer à nouveau.",
+                    "description": "Après une attaque, jetez un d6. Sur un 1, vous devez ajouter 1 point de Stress pour recharger cette arme avant de pouvoir tirer à nouveau.",
                     "actions": {
                         "reload": {
                             "name": "Recharger",
-                            "description": "Après une attaque, jetez un d6. Sur un 1, vous devez marquer 1 point de Stress pour recharger cette arme avant de pouvoir tirer à nouveau."
+                            "description": "Après une attaque, jetez un d6. Sur un 1, vous devez ajouter 1 point de Stress pour recharger cette arme avant de pouvoir tirer à nouveau."
                         }
                     }
                 },
@@ -1546,11 +1546,11 @@
                 },
                 "scary": {
                     "name": "Effrayante",
-                    "description": "En cas de réussite d'une attaque, la cible doit marquer 1 point de Stress.",
+                    "description": "En cas de réussite d'une attaque, la cible doit ajouter 1 point de Stress.",
                     "actions": {
                         "scare": {
                             "name": "Effroi",
-                            "description": "En cas de réussite d'une attaque, la cible doit marquer 1 point de Stress."
+                            "description": "En cas de réussite d'une attaque, la cible doit ajouter 1 point de Stress."
                         }
                     }
                 },
@@ -1586,21 +1586,21 @@
                 },
                 "sheltering": {
                     "name": "Protectrice",
-                    "description": "Quand vous marquez un Emplacement d'Armure, cela réduit les dégâts pour vous et tous les alliés à portée Mêlée ayant subi les mêmes dégâts.",
+                    "description": "Quand vous ajoutez une Marque d'Armure, cela réduit les dégâts pour vous et tous les alliés à portée Mêlée ayant subi les mêmes dégâts.",
                     "actions": {
                         "shelter": {
                             "name": "Abri",
-                            "description": "Quand vous marquez un Emplacement d'Armure, cela réduit les dégâts pour vous et tous les alliés à portée Mêlée ayant subi les mêmes dégâts."
+                            "description": "Quand vous ajoutez une Marque d'Armure, cela réduit les dégâts pour vous et tous les alliés à portée Mêlée ayant subi les mêmes dégâts."
                         }
                     }
                 },
                 "startling": {
                     "name": "Saisissante",
-                    "description": "Marquez 1 point de Stress pour donner un coup de fouet et forcer tous les adversaires à portée Mêlée à reculer à portée Proche.",
+                    "description": "Ajoutez 1 point de Stress pour donner un coup de fouet et forcer tous les adversaires à portée Mêlée à reculer à portée Proche.",
                     "actions": {
                         "startle": {
                             "name": "Saisissement",
-                            "description": "Marquez 1 point de Stress pour donner un coup de fouet et forcer tous les adversaires à portée Mêlée à reculer à portée Proche."
+                            "description": "Ajoutez 1 point de Stress pour donner un coup de fouet et forcer tous les adversaires à portée Mêlée à reculer à portée Proche."
                         }
                     }
                 },
@@ -1642,7 +1642,7 @@
                 "reach": {
                     "name": "Allonge"
                 },
-                "stress": {
+                "Stress": {
                     "name": "Stress"
                 }
             },
@@ -1848,15 +1848,15 @@
             "Rules": {
                 "damageReduction": {
                     "increasePerArmorMark": {
-                        "label": "Réduction de dégâts par emplacement d'armure",
-                        "hint": "Un emplacement d'armure utilisé réduit normalement les dégâts d'un seuil. Cette valeur augmente ce nombre de seuils."
+                        "label": "Réduction de dégâts par Marque d'Armure",
+                        "hint": "Une Marque d'Armure utilisé réduit normalement les dégâts d'un seuil. Cette valeur augmente ce nombre de seuils."
                     },
                     "maxArmorMarkedBonus": "Max d'armure utilisée",
                     "maxArmorMarkedStress": {
                         "label": "Max d'armure utilisée avec Stress",
-                        "hint": "Si cette valeur est définie, vous pouvez utiliser ce montant de Stress pour dépenser plus de marques d'armure que votre maximum normal."
+                        "hint": "Si cette valeur est définie, vous pouvez ajouter ce montant de Stress pour ajouter plus de Marques d'Armure que votre maximum normal."
                     },
-                    "stress": {
+                    "Stress": {
                         "any": {
                             "label": "Réduction de dégâts par Stress : Tout",
                             "hint": "Le coût en Stress que vous pouvez payer pour réduire les dégâts entrants d'un seuil."
@@ -1949,7 +1949,7 @@
             "armor": "Armure",
             "armorScore": "Valeur d'armure",
             "activeEffects": "Effets actifs",
-            "armorSlots": "Pts Armure",
+            "armorSlots": "Marques Arm.",
             "attack": "Attaque",
             "basics": "Bases",
             "bonus": "Bonus",
@@ -2027,7 +2027,7 @@
             "save": "Sauvegarde",
             "scalable": "Évolutif",
             "situationalBonus": "Bonus de situation",
-            "stress": "Stress",
+            "Stress": "Stress",
             "success": "Succès",
             "take": "Prendre",
             "Target": {
@@ -2153,7 +2153,7 @@
                 "hybridizeDrag": "Glissez une forme pour l'hybrider."
             },
             "Class": {
-                "hopeFeatures": "Traits d'espoir",
+                "hopeFeatures": "Traits d'Espoir",
                 "classFeatures": "Traits de classe",
                 "guide": {
                     "suggestedEquipment": "Équipement suggéré",
@@ -2189,7 +2189,7 @@
             "Appearance": {
                 "FIELDS": {
                     "displayFear": {
-                        "label": "Affichage de la peur"
+                        "label": "Affichage de la Peur"
                     },
                     "dualityColorScheme": {
                         "label": "Style du chat"
@@ -2207,7 +2207,7 @@
             "Automation": {
                 "fear": {
                     "name": "Peur",
-                    "hint": "Augmentez le total de Peur du MJ en cas de jet de dé de peur."
+                    "hint": "Augmentez le total de Peur du MJ en cas de jet de dé de Peur."
                 },
                 "FIELDS": {
                     "damageReductionRulesDefault": {
@@ -2228,8 +2228,8 @@
                         "hint": "Une fois les choix de niveau faits, les changements numériques sont appliqués au personnage."
                     },
                     "actionPoints": {
-                        "label": "Points d'action",
-                        "hint": "Donne et prend des points d'action auto en fonction du tour des combattants."
+                        "label": "Points d'Action",
+                        "hint": "Donne et prend des Points d'Action auto en fonction du tour des combattants."
                     },
                     "hordeDamage": {
                         "label": "Dégâts de horde auto",
@@ -2449,7 +2449,7 @@
                 "primaryIsTwoHanded": "Impossible de sélectionner une arme secondaire si la principale est à deux mains!",
                 "noMoreMoves": "Vous ne pouvez pas choisir d'autres actions de repos.",
                 "damageAlreadyNone": "Les dégâts ont déjà été réduits à zéro.",
-                "noAvailableArmorMarks": "Vous n'avez plus de marques d'armure disponibles.",
+                "noAvailableArmorMarks": "Vous n'avez plus de Marques d'Armure disponibles.",
                 "notEnoughStress": "Vous n'avez pas assez de Stress.",
                 "damageIgnore": "{character} n'a pas subi de dégâts.",
                 "featureIsMissing": "Trait manquant.",
