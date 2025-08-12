@@ -207,8 +207,8 @@
                 },
                 "faith": "Foi",
                 "levelUp": "Vous pouvez monter de niveau",
-                "maxEvasionBonus": "Augmentation max de l'évasion",
-                "maxHPBonus": "Augmentation max des Blessures",
+                "maxEvasionBonus": "Bonus à l'évasion",
+                "maxHPBonus": "Bonus aux Blessures",
                 "pronouns": "Pronoms",
                 "story": {
                     "backgroundTitle": "Historique",
@@ -925,7 +925,7 @@
             },
             "DomainCardTypes": {
                 "ability": "Capacité",
-                "spell": "Sort",
+                "spell": "Sortilège",
                 "grimoire": "Grimoire"
             },
             "EnvironmentType": {
@@ -1764,8 +1764,8 @@
                 "single": "Domaine",
                 "plural": "Domaines",
                 "arcana": {
-                    "label": "Arcanes",
-                    "description": "Le domaine de la magie innée et instinctive. Ceux qui le pratiquent exploitent les forces brutes et énigmatiques des royaumes. Les Arcanes offrent une puissance volatile mais très puissante."
+                    "label": "Arcane",
+                    "description": "Le domaine de la magie innée et instinctive. Ceux qui le pratiquent exploitent les forces brutes et énigmatiques des royaumes. Arcane offre une puissance volatile mais très puissante."
                 },
                 "blade": {
                     "label": "Lame",
@@ -1788,16 +1788,16 @@
                     "description": "Le domaine des ombres et du secret. Par la ruse ou le manteau de la nuit, ceux qui exploitent ces forces maîtrisent l'art de l'obscurité. Minuit offre le pouvoir incroyable de contrôler et créer des énigmes."
                 },
                 "sage": {
-                    "label": "Sage",
-                    "description": "Le domaine du monde naturel. Ceux qui le suivent exploitent le pouvoir débridé de la terre et de ses créatures. Sage donne la vitalité d'une fleur et la férocité d'un prédateur affamé."
+                    "label": "Sagesse",
+                    "description": "Le domaine du monde naturel. Ceux qui le suivent exploitent le pouvoir débridé de la terre et de ses créatures. Sagesse donne la vitalité d'une fleur et la férocité d'un prédateur affamé."
                 },
                 "splendor": {
                     "label": "Splendeur",
                     "description": "Le domaine de la vie. Par cette magie, les fidèles peuvent soigner, mais un tel pouvoir permet aussi un certain contrôle sur la mort. Splendeur offre la magnifique capacité de donner et d'ôter la vie."
                 },
                 "valor": {
-                    "label": "Valeur",
-                    "description": "Le domaine de la protection. Par l'attaque ou la défense, ceux qui choisissent cette discipline protègent leurs alliés au combat. Valeur offre un grand pouvoir à ceux qui lèvent leur bouclier."
+                    "label": "Vaillance",
+                    "description": "Le domaine de la protection. Par l'attaque ou la défense, ceux qui choisissent cette discipline protègent leurs alliés au combat. Vaillance offre un grand pouvoir à ceux qui lèvent leur bouclier."
                 }
             },
             "Effect": {
@@ -2481,8 +2481,8 @@
                 "openItemWorld": "Ouvrir l'objet",
                 "openActorWorld": "Ouvrir le PNJ",
                 "sendToChat": "Envoyer au chat",
-                "maxEvasionClassBound": "Votre base d'Évasion est liée à votre classe. Ceci est l'augmentation par-dessus.",
-                "maxHPClassBound": "Votre base de Blessures max est liée à votre classe. Ceci est l'augmentation par-dessus.",
+                "maxEvasionClassBound": "Votre base d'Évasion est liée à votre classe. Ceci est le bonus ajouté à la base",
+                "maxHPClassBound": "Votre base de Blessures max est liée à votre classe. Ceci est le bonus ajouté à la base",
                 "moreOptions": "Plus d'options",
                 "equip": "Équiper",
                 "unequip": "Déséquiper",
