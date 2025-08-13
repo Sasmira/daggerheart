@@ -78,9 +78,7 @@
             "Settings": {
                 "attackBonus": "Bonus d'attaque",
                 "attackName": "Nom de l'attaque",
-                "includeBase": {
-                    "label": "Inclure les dégâts de l'objet"
-                },
+                "includeBase": { "label": "Inclure les dégâts de l'objet" },
                 "multiplier": "Multiplicateur",
                 "resultBased": {
                     "label": "Formule basée sur le résultat Espoir/Peur."
@@ -112,78 +110,42 @@
             "Adversary": {
                 "FIELDS": {
                     "attack": {
-                        "name": {
-                            "label": "Nom"
-                        },
-                        "modifier": {
-                            "label": "Modificateur"
-                        },
-                        "range": {
-                            "label": "Portée"
-                        },
+                        "name": { "label": "Nom" },
+                        "modifier": { "label": "Modificateur" },
+                        "range": { "label": "Portée" },
                         "damage": {
-                            "value": {
-                                "label": "Dégâts"
-                            },
-                            "type": {
-                                "label": "Type de dégâts"
-                            }
+                            "value": { "label": "Dégâts" },
+                            "type": { "label": "Type de dégâts" }
                         }
                     },
                     "damageThresholds": {
-                        "major": {
-                            "label": "Majeur"
-                        },
-                        "severe": {
-                            "label": "Sévère"
-                        }
+                        "major": { "label": "Majeur" },
+                        "severe": { "label": "Grave" }
                     },
-                    "description": {
-                        "label": "Description"
-                    },
-                    "difficulty": {
-                        "label": "Difficulté"
-                    },
+                    "description": { "label": "Description" },
+                    "difficulty": { "label": "Difficulté" },
                     "experiences": {
                         "element": {
-                            "name": {
-                                "label": "Nom"
-                            },
-                            "value": {
-                                "label": "Modificateur"
-                            }
+                            "name": { "label": "Nom" },
+                            "value": { "label": "Modificateur" }
                         }
                     },
-                    "motivesAndTactics": {
-                        "label": "Motivations et tactiques"
-                    },
+                    "motivesAndTactics": { "label": "Motivations et Tactiques" },
                     "resources": {
                         "hitPoints": {
-                            "value": {
-                                "label": "Actuel"
-                            },
-                            "max": {
-                                "label": "Max"
-                            }
+                            "value": { "label": "Actuel" },
+                            "max": { "label": "Max" }
                         },
-                        "Stress": {
-                            "value": {
-                                "label": "Actuel"
-                            },
-                            "max": {
-                                "label": "Max"
-                            }
+                        "stress": {
+                            "value": { "label": "Actuel" },
+                            "max": { "label": "Max" }
                         }
                     },
-                    "tier": {
-                        "label": "Niveau"
-                    },
-                    "type": {
-                        "label": "Type"
-                    }
+                    "tier": { "label": "Rang" },
+                    "type": { "label": "Type" }
                 },
                 "hordeDamage": "Dégâts de la Horde",
-                "horderHp": "Horde/BLESS"
+                "horderHp": "Horde/PV"
             },
             "Character": {
                 "advantageSources": {
@@ -195,8 +157,8 @@
                 "contextMenu": {
                     "consume": "Consommer l'objet",
                     "equip": "Équiper",
-                    "sendToChat": "Envoyer au chat",
-                    "toLoadout": "Envoyer à la panoplie",
+                    "sendToChat": "Envoyer dans le chat",
+                    "toLoadout": "Envoyer dans la main",
                     "toVault": "Envoyer au coffre",
                     "unequip": "Déséquiper",
                     "useItem": "Utiliser l'objet"
@@ -207,8 +169,8 @@
                 },
                 "faith": "Foi",
                 "levelUp": "Vous pouvez monter de niveau",
-                "maxEvasionBonus": "Bonus à l'évasion",
-                "maxHPBonus": "Bonus aux Blessures",
+                "maxEvasionBonus": "Bonus à l'évasion max",
+                "maxHPBonus": "Bonus aux PV max",
                 "pronouns": "Pronoms",
                 "story": {
                     "backgroundTitle": "Historique",
@@ -232,29 +194,17 @@
             "Companion": {
                 "FIELDS": {
                     "attack": {
-                        "name": {
-                            "label": "Nom de l'attaque"
-                        }
+                        "name": { "label": "Nom de l'attaque" }
                     },
                     "evasion": {
-                        "value": {
-                            "label": "Évasion"
-                        }
+                        "value": { "label": "Évasion" }
                     },
-                    "partner": {
-                        "label": "Partenaire"
-                    },
+                    "partner": { "label": "Partenaire" },
                     "resources": {
                         "Stress": {
-                            "value": {
-                                "label": "Stress"
-                            },
-                            "currentStress": {
-                                "label": "Stress actuel"
-                            },
-                            "maxStress": {
-                                "label": "Stress max"
-                            }
+                            "value": { "label": "Stress" },
+                            "currentStress": { "label": "Stress actuel" },
+                            "maxStress": { "label": "Stress max" }
                         }
                     }
                 },
@@ -272,7 +222,7 @@
                         "label": "Impulsions"
                     },
                     "tier": {
-                        "label": "Niveau"
+                        "label": "Rang"
                     },
                     "type": {
                         "label": "Type"
@@ -320,17 +270,17 @@
             },
             "CombatTracker": {
                 "combatStarted": "Actif",
-                "giveSpotlight": "Donner la vedette",
+                "giveSpotlight": "Mettre en avant",
                 "requestingSpotlight": "Demande envoyée",
-                "requestSpotlight": "Demander la vedette",
+                "requestSpotlight": "Demander la mise en avant",
                 "openCountdowns": "Comptes à rebours"
             },
             "ContextMenu": {
                 "disableEffect": "Désactiver l'effet",
                 "enableEffect": "Activer l'effet",
                 "equip": "Équiper",
-                "sendToChat": "Envoyer au chat",
-                "toLoadout": "Envoyer à la panoplie",
+                "sendToChat": "Envoyer dans le chat",
+                "toLoadout": "Envoyer dans la main",
                 "toVault": "Envoyer au coffre",
                 "unequip": "Déséquiper",
                 "useItem": "Utiliser l'objet"
@@ -340,24 +290,13 @@
                 "FIELDS": {
                     "countdowns": {
                         "element": {
-                            "name": {
-                                "label": "Nom"
-                            },
+                            "name": { "label": "Nom" },
                             "progress": {
-                                "current": {
-                                    "label": "Actuel"
-                                },
-                                "max": {
-                                    "label": "Max"
-                                },
+                                "current": { "label": "Actuel" },
+                                "max": { "label": "Max" },
                                 "type": {
-                                    "label": {
-                                        "label": "Étiquette",
-                                        "hint": "Utilisé pour les types personnalisés"
-                                    },
-                                    "value": {
-                                        "label": "Valeur"
-                                    }
+                                    "label": { "label": "Étiquette", "hint": "Utilisé pour les types personnalisés" },
+                                    "value": { "label": "Valeur" }
                                 }
                             }
                         }
@@ -379,19 +318,19 @@
                 "text": "Êtes-vous sûr de vouloir supprimer {name} ?"
             },
             "DamageReduction": {
-                "armorMarks": "Marques d'Armure",
-                "armorWithStress": "Ajouter 1 Stress pour pouvoir ajouter une Marque d'Armure supplémentaire",
+                "armorMarks": "Emplacements d'Armure",
+                "armorWithStress": "Cocher 1 Stress pour pouvoir cocher un Emplacement d'Armure supplémentaire",
                 "thresholdImmunities": "Immunités aux seuils",
                 "Stress": "Stress",
                 "StressReduction": "Réduire par points de Stress",
                 "title": "Réduction des dégâts",
-                "unncessaryStress": "Vous n'avez pas besoin d'ajouter du Stress",
+                "unncessaryStress": "Vous n'avez pas besoin de cocher du Stress",
                 "usedMarks": "Points ajoutés"
             },
             "DeathMove": {
-                "selectMove": "Sélectionner une manœuvre",
-                "takeMove": "Utiliser une manœuvre de mort",
-                "title": "Manœuvre de mort de {actor}"
+                "selectMove": "Valider",
+                "takeMove": "Faire un Acte de Mort",
+                "title": "Acte de Mort de {actor}"
             },
             "Downtime": {
                 "longRest": {
@@ -406,11 +345,11 @@
                         "name": "Se préparer"
                     },
                     "repairArmor": {
-                        "description": "Décrivez comment vous passez du temps à réparer votre armure et effacez toutes les Marques d'Armure. Vous pouvez également le faire pour l'armure d'un allié.",
+                        "description": "Décrivez comment vous passez du temps à réparer votre armure et effacez tous les Emplacements d'Armure. Vous pouvez également le faire pour l'armure d'un allié.",
                         "name": "Réparer l'armure"
                     },
                     "tendToWounds": {
-                        "description": "Décrivez comment vous vous soignez et effacez toutes les Blessures. Vous pouvez également le faire sur un allié.",
+                        "description": "Décrivez comment vous vous soignez et effacez tous les PV. Vous pouvez également le faire sur un allié.",
                         "name": "Soigner les blessures"
                     },
                     "workOnAProject": {
@@ -423,7 +362,7 @@
                     "moves": "Manœuvres de repos court ({current}/{max})",
                     "tendToWounds": {
                         "name": "Soigner les blessures",
-                        "description": "Décrivez comment vous vous soignez à la hâte, puis effacez un nombre de Blessures égales à 1d4 + votre niveau. Vous pouvez le faire pour un allié."
+                        "description": "Décrivez comment vous vous soignez à la hâte, puis effacez un nombre de PV égales à 1d4 + votre niveau. Vous pouvez le faire pour un allié."
                     },
                     "clearStress": {
                         "name": "Effacer le Stress",
@@ -431,7 +370,7 @@
                     },
                     "repairArmor": {
                         "name": "Réparer l'armure",
-                        "description": "Décrivez comment vous réparez rapidement votre armure, puis effacez un nombre de Marques d'Armure égal à 1d4 + votre niveau. Vous pouvez le faire pour l'armure d'un allié."
+                        "description": "Décrivez comment vous réparez rapidement votre armure, puis effacez un nombre d'Emplacements d'Armure égal à 1d4 + votre niveau. Vous pouvez le faire pour l'armure d'un allié."
                     },
                     "prepare": {
                         "name": "Se préparer",
@@ -456,16 +395,16 @@
                     },
                     "armored": {
                         "name": "Armuré",
-                        "description": "Lorsque votre compagnon subit des dégâts, vous pouvez ajouter une de vos Marques d'Armure au lieu d'ajouter un de ses points de Stress."
+                        "description": "Lorsque votre compagnon subit des dégâts, vous pouvez cocher un de vos Emplacements d'Armure au lieu de cocher un de ses points de Stress."
                     },
                     "bonded": {
                         "name": "Lié",
-                        "description": "Lorsque vous ajoutez votre dernière Blessure, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6, votre compagnon vous aide à vous relever. Effacez votre dernière Blessure et revenez dans la scène."
+                        "description": "Lorsque vous cochez votre dernier PV, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6, votre compagnon vous aide à vous relever. Effacez votre dernier PV et revenez dans la scène."
                     }
                 },
                 "choiceDescriptions": {
                     "attributes": "Gagnez un bonus de +1 à deux traits de personnage non cochés et cochez-les.",
-                    "hitPointSlots": "Gagnez un emplacement de Blessure de façon permanente.",
+                    "hitPointSlots": "Gagnez un emplacement de Point de Vie de façon permanente.",
                     "StressSlots": "Gagnez un emplacement de Stress de façon permanente.",
                     "experiences": "Gagnez un bonus de +1 à deux expériences de façon permanente.",
                     "domainCard": "Choisissez une carte de domaine supplémentaire de votre niveau ou inférieur dans un domaine auquel vous avez accès (jusqu'au niveau {maxLevel})",
@@ -483,7 +422,7 @@
                 "navigateToSummary": "Vers le résumé",
                 "options": {
                     "trait": "Gagnez un bonus de +1 à deux traits de personnage non cochés et cochez-les.",
-                    "hitPoint": "Gagnez un emplacement de Blessure de façon permanente.",
+                    "hitPoint": "Gagnez un emplacement de Point de Vie de façon permanente.",
                     "Stress": "Gagnez un emplacement de Stress de façon permanente.",
                     "experience": "Gagnez un bonus de +1 à deux expériences de façon permanente.",
                     "domainCard": "Choisissez une carte de domaine supplémentaire de votre niveau ou inférieur dans un domaine auquel vous avez accès (jusqu'au niveau {maxLevel})",
@@ -494,10 +433,10 @@
                     "intelligent": "Votre compagnon gagne un bonus permanent de +1 à une Expérience de compagnon de votre choix.",
                     "lightInTheDark": "Gagnez un emplacement d'Espoir supplémentaire pour votre personnage.",
                     "creatureComfort": "Une fois par repos, lorsque vous prenez un moment de calme pour donner de l'amour et de l'attention à votre compagnon, vous pouvez gagner un Espoir ou vous pouvez tous les deux effacer un Stress.",
-                    "armored": "Lorsque votre compagnon subit des dégâts, vous pouvez ajouter une de vos Marques d'Armure au lieu d'ajouter un Stress.",
-                    "vicious": "Augmentez le dé de dégâts ou la portée de votre compagnon d'un cran (d6 en d8, Proche en Loin, etc.)",
+                    "armored": "Lorsque votre compagnon subit des dégâts, vous pouvez cocher un de vos Emplacements d'Armure au lieu de cocher un Stress.",
+                    "vicious": "Augmentez le dé de dégâts ou la portée de votre compagnon d'un cran (d6 en d8, Courte en Longue, etc.)",
                     "resilient": "Votre compagnon gagne un emplacement de Stress supplémentaire.",
-                    "bonded": "Lorsque vous ajoutez votre dernière Blessure, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6, votre compagnon vous aide à vous relever. Effacez votre dernière Blessure et revenez dans la scène.",
+                    "bonded": "Lorsque vous cochez votre dernier PV, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6, votre compagnon vous aide à vous relever. Effacez votre dernier PV et revenez dans la scène.",
                     "aware": "Votre compagnon gagne un bonus permanent de +2 à son Évasion."
                 },
                 "selections": {
@@ -509,11 +448,11 @@
                     "levelAchievements": "Succès de niveau",
                     "levelAdvancements": "Avancements de niveau",
                     "proficiencyIncrease": "Maîtrise augmentée : {proficiency}",
-                    "hpIncrease": "Blessures augmentées : {hitPoints}",
+                    "hpIncrease": "Points de Vie augmentés : {hitPoints}",
                     "StressIncrease": "Stress augmenté : {Stress}",
                     "evasionIncrease": "Évasion augmentée : {evasion}",
                     "damageThresholdMajorIncrease": "Majeur : {threshold}",
-                    "damageThresholdSevereIncrease": "Sévère : {threshold}",
+                    "damageThresholdSevereIncrease": "Grave : {threshold}",
                     "newExperiences": "Nouvelles expériences",
                     "experiencePlaceholder": "Une nouvelle expérience..",
                     "domainCards": "Cartes de Domaine",
@@ -595,7 +534,7 @@
                 },
                 "minion": {
                     "name": "Sbire",
-                    "description": "Pour chaque X dégâts qu'un PJ inflige à cet adversaire, il inflige aussi 1 Blessure à un sbire supplémentaire dans la portée de son attaque.",
+                    "description": "Pour chaque X dégâts qu'un PJ inflige à cet adversaire, il inflige aussi 1 PV à un sbire supplémentaire dans la portée de son attaque.",
                     "tip": "La manœuvre Sbire est utile lorsque vous voulez placer beaucoup de petits ennemis sur le champ de bataille, en sachant que le groupe peut facilement s'en débarrasser. Cette manœuvre signifie que si un PJ frappe un sbire et qu'il inflige suffisamment de dégâts, il frappe également un certain nombre d'autres sbires qui sont à portée. Pour cette raison, il est souvent préférable d'avoir des sbires qui encerclent un PJ - cela semblera accablant et dangereux jusqu'à ce qu'il soit capable de faire une attaque contre eux. Si vous voulez cette sensation cinématique de personnages qui éliminent des vagues d'ennemis avec un seul jet d'attaque, les sbires sont un excellent outil pour y arriver."
                 }
             },
@@ -684,11 +623,11 @@
                 },
                 "fortified": {
                     "name": "Fortifiée",
-                    "description": "Lorsque vous ajoutez une Marque d'Armure, vous réduisez la gravité d'une attaque de deux seuils au lieu d'un seul.",
+                    "description": "Lorsque vous cochez un Emplacement d'Armure, vous réduisez la gravité d'une attaque de deux seuils au lieu d'un seul.",
                     "effects": {
                         "fortified": {
                             "name": "Fortifiée",
-                            "description": "Lorsque vous ajoutez une Marque d'Armure, vous réduisez la gravité d'une attaque de deux seuils au lieu d'un seul."
+                            "description": "Lorsque vous cochez un Emplacement d'Armure, vous réduisez la gravité d'une attaque de deux seuils au lieu d'un seul."
                         }
                     }
                 },
@@ -714,51 +653,51 @@
                 },
                 "hopeful": {
                     "name": "Pleine d'Espoir",
-                    "description": "Lorsque vous devriez dépenser un Espoir, vous pouvez ajouter une Marque d'Armure à la place.",
+                    "description": "Lorsque vous devriez dépenser un Espoir, vous pouvez cocher un Emplacement d'Armure à la place.",
                     "actions": {
                         "hope": {
                             "name": "Espoir",
-                            "description": "Lorsque vous devriez dépenser un Espoir, vous pouvez ajouter une Marque d'Armure à la place."
+                            "description": "Lorsque vous devriez dépenser un Espoir, vous pouvez cocher un Emplacement d'Armure à la place."
                         }
                     }
                 },
                 "impenetrable": {
                     "name": "Impénétrable",
-                    "description": "Une fois par repos court, lorsque vous devriez ajouter votre dernière Blessure, vous pouvez ajouter un Stress à la place.",
+                    "description": "Une fois par repos court, lorsque vous devriez cocher votre dernier PV, vous pouvez cocher un Stress à la place.",
                     "actions": {
                         "impenetrable": {
                             "name": "Impénétrable",
-                            "description": "Une fois par repos court, lorsque vous devriez ajouter votre dernière Blessure, vous pouvez ajouter un Stress à la place."
+                            "description": "Une fois par repos court, lorsque vous devriez cocher votre dernier PV, vous pouvez cocher un Stress à la place."
                         }
                     }
                 },
                 "magical": {
                     "name": "Magique",
-                    "description": "Vous ne pouvez pas ajouter une Marque d'Armure pour réduire les dégâts physiques.",
+                    "description": "Vous ne pouvez pas cocher un Emplacement d'Armure pour réduire les dégâts physiques.",
                     "effects": {
                         "magical": {
                             "name": "Magique",
-                            "description": "Vous ne pouvez pas ajouter une Marque d'Armure pour réduire les dégâts physiques."
+                            "description": "Vous ne pouvez pas cocher un Emplacement d'Armure pour réduire les dégâts physiques."
                         }
                     }
                 },
                 "painful": {
                     "name": "Douloureuse",
-                    "description": "Chaque fois que vous ajoutez une Marque d'Armure, vous devez ajouter un Stress.",
+                    "description": "Chaque fois que vous cochez un Emplacement d'Armure, vous devez cocher un Stress.",
                     "actions": {
                         "pain": {
                             "name": "Douleur",
-                            "description": "Chaque fois que vous ajoutez une Marque d'Armure, vous devez ajouter un Stress."
+                            "description": "Chaque fois que vous cochez un Emplacement d'Armure, vous devez cocher un Stress."
                         }
                     }
                 },
                 "physical": {
                     "name": "Physique",
-                    "description": "Vous ne pouvez pas ajouter une Marque d'Armure pour réduire les dégâts magiques.",
+                    "description": "Vous ne pouvez pas cocher un Emplacement d'Armure pour réduire les dégâts magiques.",
                     "effects": {
                         "physical": {
                             "name": "Physique",
-                            "description": "Vous ne pouvez pas ajouter une Marque d'Armure pour réduire les dégâts magiques."
+                            "description": "Vous ne pouvez pas cocher un Emplacement d'Armure pour réduire les dégâts magiques."
                         }
                     }
                 },
@@ -774,27 +713,27 @@
                 },
                 "reinforced": {
                     "name": "Renforcée",
-                    "description": "Lorsque vous ajoutez votre dernière Marque d'Armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Marque d'Armure.",
+                    "description": "Lorsque vous cochez votre dernier Emplacement d'Armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Emplacement d'Armure.",
                     "actions": {
                         "reinforce": {
                             "name": "Renforcer",
-                            "description": "Lorsque vous ajoutez votre dernière Marque d'Armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Marque d'Armure."
+                            "description": "Lorsque vous cochez votre dernier Emplacement d'Armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Emplacement d'Armure."
                         }
                     },
                     "effects": {
                         "reinforced": {
                             "name": "Renforcée",
-                            "description": "Lorsque vous ajoutez votre dernière Marque d'Armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Marque d'Armure."
+                            "description": "Lorsque vous cochez votre dernier Emplacement d'Armure, augmentez vos seuils de dégâts de +2 jusqu'à ce que vous effaciez au moins 1 Emplacement d'Armure."
                         }
                     }
                 },
                 "resilient": {
                     "name": "Résiliente",
-                    "description": "Avant d'ajouter votre dernière Marque d'Armure, faites un jet de d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans ajouter de Marque d'Armure.",
+                    "description": "Avant de cocher votre dernier Emplacement d'Armure, faites un jet de d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans cocher d'Emplacement d'Armure.",
                     "actions": {
                         "resilient": {
                             "name": "Résiliente",
-                            "description": "Avant d'ajouter votre dernière Marque d'Armure, faites un jet de d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans ajouter de Marque d'Armure."
+                            "description": "Avant de cocher votre dernier Emplacement d'Armure, faites un jet de d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans cocher d'Emplacement d'Armure."
                         }
                     }
                 },
@@ -810,31 +749,31 @@
                 },
                 "shifting": {
                     "name": "Changeante",
-                    "description": "Lorsque vous êtes ciblé par une attaque, vous pouvez ajouter un Marque d'Armure pour donner un désavantage au jet d'attaque contre vous.",
+                    "description": "Lorsque vous êtes ciblé par une attaque, vous pouvez cocher un Emplacement d'Armure pour donner un désavantage au jet d'attaque contre vous.",
                     "actions": {
                         "shift": {
                             "name": "Changer",
-                            "description": "Lorsque vous êtes ciblé par une attaque, vous pouvez ajouter un Marque d'Armure pour donner un désavantage au jet d'attaque contre vous."
+                            "description": "Lorsque vous êtes ciblé par une attaque, vous pouvez cocher un Emplacement d'Armure pour donner un désavantage au jet d'attaque contre vous."
                         }
                     }
                 },
                 "timeslowing": {
                     "name": "Ralentisseur de temps",
-                    "description": "Ajoutez une Marque d'Armure pour faire un jet de d4 et ajouter son résultat en bonus à votre Évasion contre une attaque entrante.",
+                    "description": "Cochez un Emplacement d'Armure pour faire un jet de d4 et cocher son résultat en bonus à votre Évasion contre une attaque entrante.",
                     "actions": {
                         "slowTime": {
                             "name": "Ralentir le temps",
-                            "description": "Ajoutez une Marque d'Armure pour faire un jet de d4 et ajouter son résultat en bonus à votre Évasion contre une attaque entrante."
+                            "description": "Cochez un Emplacement d'Armure pour faire un jet de d4 et ajouter son résultat en bonus à votre Évasion contre une attaque entrante."
                         }
                     }
                 },
                 "truthseeking": {
                     "name": "Véridique",
-                    "description": "Cette armure brille lorsqu'une autre créature à portée Proche ment.",
+                    "description": "Cette armure brille lorsqu'une autre créature à portée Courte ment.",
                     "actions": {
                         "truthseeking": {
                             "name": "Véridique",
-                            "description": "Cette armure brille lorsqu'une autre créature à portée Proche ment."
+                            "description": "Cette armure brille lorsqu'une autre créature à portée Courte ment."
                         }
                     }
                 },
@@ -895,7 +834,7 @@
                 }
             },
             "CountdownType": {
-                "spotlight": "Vedette",
+                "spotlight": "Mise en avant",
                 "custom": "Personnalisé",
                 "characterAttack": "Attaque de personnage"
             },
@@ -911,16 +850,16 @@
             },
             "DeathMoves": {
                 "avoidDeath": {
-                    "name": "Éviter la mort",
+                    "name": "Éviter la Mort",
                     "description": "Vous tombez inconscient temporairement et travaillez avec le MJ pour décrire comment la situation s'aggrave à cause de cela. Puis, faites un jet de votre dé Peur ; si sa valeur est égale ou inférieure à votre Niveau, prenez une Cicatrice."
                 },
                 "riskItAll": {
-                    "name": "Tout risquer",
-                    "description": "Faites un jet de vos dés de Dualité. Si l'Espoir est plus élevé, vous restez debout et effacez une quantité de Blessures et/ou de Stress égales à la valeur du dé Espoir (répartissez la valeur du dé Espoir comme vous le souhaitez). Si votre dé Peur est plus élevé, vous traversez le voile de la mort. Si les dés de Dualité sont à égalité, vous restez debout et effacez tous vos Blessures et votre Stress."
+                    "name": "Tout Risquer",
+                    "description": "Faites un jet de vos dés de Dualité. Si l'Espoir est plus élevé, vous restez debout et effacez une quantité de Points de Vie et/ou de Stress égales à la valeur du dé Espoir (répartissez la valeur du dé Espoir comme vous le souhaitez). Si votre dé Peur est plus élevé, vous traversez le voile de la mort. Si les dés de Dualité sont à égalité, vous restez debout et effacez tous vos Points de Vie et votre Stress."
                 },
                 "blazeOfGlory": {
-                    "name": "Feu de la gloire",
-                    "description": "Avec Feu de la gloire, le joueur accepte la mort de son personnage. Faites une action (à la discrétion du MJ), qui devient un succès critique automatique, puis traversez le voile de la mort."
+                    "name": "Éclat de Gloire",
+                    "description": "En sélectionnant Éclat de Gloire, le joueur accepte la mort de son personnage. Faites une dernière action (à la discrétion du MJ), qui devient un succès critique automatique, puis traversez le voile de la mort."
                 }
             },
             "DomainCardTypes": {
@@ -955,8 +894,8 @@
             },
             "HealingType": {
                 "hitPoints": {
-                    "name": "Blessures",
-                    "abbreviation": "BLESS"
+                    "name": "Points de Vie",
+                    "abbreviation": "PV"
                 },
                 "Stress": {
                     "name": "Stress",
@@ -967,7 +906,7 @@
                     "abbreviation": "ESP"
                 },
                 "armor": {
-                    "name": "Marque d'Armure",
+                    "name": "Emplacement d'Armure",
                     "abbreviation": "ARM"
                 },
                 "fear": {
@@ -995,24 +934,24 @@
                     "short": "Mêlée"
                 },
                 "veryClose": {
-                    "name": "Très proche",
-                    "description": "signifie une distance où l'on peut voir de fins détails d'une cible - à portée de main, si besoin. C'est généralement entre 1,5 et 3 mètres. En situation de danger, un personnage peut généralement atteindre tout ce qui est très proche dans le cadre d'une autre action. Sur une carte de bataille, tout ce qui se trouve dans la plus petite longueur d'une carte de jeu (~5-7 cm) peut généralement être considéré comme très proche.",
-                    "short": "T. Proche"
+                    "name": "Très courte",
+                    "description": "signifie une distance où l'on peut voir de fins détails d'une cible - à portée de main, si besoin. C'est généralement entre 1,5 et 3 mètres. En situation de danger, un personnage peut généralement atteindre tout ce qui est Très courte dans le cadre d'une autre action. Sur une carte de bataille, tout ce qui se trouve dans la plus petite longueur d'une carte de jeu (~5-7 cm) peut généralement être considéré comme Très courte.",
+                    "short": "T. Courte"
                 },
                 "close": {
-                    "name": "Proche",
-                    "description": "signifie une distance où l'on peut voir des détails proéminents d'une cible - de l'autre côté d'une pièce ou d'un stand de marché voisin, généralement entre 3 et 9 mètres. En situation de danger, un personnage peut généralement atteindre tout ce qui est proche dans le cadre d'une autre action. Sur une carte de bataille, tout ce qui se trouve dans la longueur d'un stylo ou d'un crayon standard (~12-15 cm) peut généralement être considéré comme proche.",
-                    "short": "Proche"
+                    "name": "Courte",
+                    "description": "signifie une distance où l'on peut voir des détails proéminents d'une cible - de l'autre côté d'une pièce ou d'un stand de marché voisin, généralement entre 3 et 9 mètres. En situation de danger, un personnage peut généralement atteindre tout ce qui est Courte dans le cadre d'une autre action. Sur une carte de bataille, tout ce qui se trouve dans la longueur d'un stylo ou d'un crayon standard (~12-15 cm) peut généralement être considéré comme Courte.",
+                    "short": "Courte"
                 },
                 "far": {
-                    "name": "Loin",
-                    "description": "signifie une distance où l'on peut voir l'apparence d'une personne ou d'un objet, mais probablement pas en grand détail - de l'autre côté d'un petit champ de bataille ou au fond d'un grand couloir. C'est généralement entre 9 et 30 mètres. En situation de danger, un personnage devra probablement faire un jet d'Agilité pour y arriver en toute sécurité. Sur une carte de bataille, tout ce qui se trouve dans la longueur d'une feuille de papier standard (~25-28 cm) peut généralement être considéré comme loin.",
-                    "short": "Loin"
+                    "name": "Longue",
+                    "description": "signifie une distance où l'on peut voir l'apparence d'une personne ou d'un objet, mais probablement pas en grand détail - de l'autre côté d'un petit champ de bataille ou au fond d'un grand couloir. C'est généralement entre 9 et 30 mètres. En situation de danger, un personnage devra probablement faire un jet d'Agilité pour y arriver en toute sécurité. Sur une carte de bataille, tout ce qui se trouve dans la longueur d'une feuille de papier standard (~25-28 cm) peut généralement être considéré comme Longue.",
+                    "short": "Longue"
                 },
                 "veryFar": {
-                    "name": "Très loin",
-                    "description": "signifie une distance où vous pouvez voir la forme d'une personne ou d'un objet, mais probablement pas distinguer de détails - de l'autre côté d'un grand champ de bataille ou au bout d'une longue rue, généralement entre 30 et 90 mètres. En situation de danger, un personnage devra probablement faire un jet d'Agilité pour y arriver en toute sécurité. Sur une carte de bataille, tout ce qui est au-delà de la distance lointaine, mais toujours en vue des personnages, peut généralement être considéré comme très loin.",
-                    "short": "T. Loin"
+                    "name": "Très longue",
+                    "description": "signifie une distance où vous pouvez voir la forme d'une personne ou d'un objet, mais probablement pas distinguer de détails - de l'autre côté d'un grand champ de bataille ou au bout d'une longue rue, généralement entre 30 et 90 mètres. En situation de danger, un personnage devra probablement faire un jet d'Agilité pour y arriver en toute sécurité. Sur une carte de bataille, tout ce qui est au-delà de la distance lointaine, mais toujours en vue des personnages, peut généralement être considéré comme Très longue.",
+                    "short": "T. Longue"
                 }
             },
             "RollTypes": {
@@ -1023,7 +962,7 @@
                     "name": "Attaque"
                 },
                 "spellcast": {
-                    "name": "Jet de sort"
+                    "name": "Incantation"
                 },
                 "diceSet": {
                     "name": "Ensemble de dés"
@@ -1126,11 +1065,11 @@
                 },
                 "bouncing": {
                     "name": "Bondissante",
-                    "description": "Ajoutez 1 point de Stress ou plus pour toucher ce nombre de cibles à portée de l'attaque.",
+                    "description": "Cochez 1 Stress ou plus pour toucher ce nombre de cibles à portée de l'attaque.",
                     "actions": {
                         "bounce": {
                             "name": "Rebond",
-                            "description": "Ajoutez 1 point de Stress ou plus pour toucher ce nombre de cibles à portée de l'attaque."
+                            "description": "Cochez 1 Stress ou plus pour toucher ce nombre de cibles à portée de l'attaque."
                         }
                     }
                 },
@@ -1156,21 +1095,21 @@
                 },
                 "burning": {
                     "name": "Brûlante",
-                    "description": "Quand vous obtenez un 6 sur un jet de dégâts, la cible doit ajouter 1 point de Stress.",
+                    "description": "Quand vous obtenez un 6 sur un jet de dégâts, la cible doit cocher 1 Stress.",
                     "actions": {
                         "burn": {
                             "name": "Brûlure",
-                            "description": "Quand vous obtenez un 6 sur un jet de dégâts, la cible doit ajouter 1 point de Stress."
+                            "description": "Quand vous obtenez un 6 sur un jet de dégâts, la cible doit cocher 1 Stress."
                         }
                     }
                 },
                 "charged": {
                     "name": "Chargée",
-                    "description": "Ajoutez 1 point de Stress pour gagner un bonus de +1 à votre Maîtrise lors d'une attaque avec l'arme principale.",
+                    "description": "Cochez 1 Stress pour gagner un bonus de +1 à votre Maîtrise lors d'une attaque avec l'arme principale.",
                     "actions": {
                         "markStress": {
                             "name": "Charge",
-                            "description": "Ajoutez 1 point de Stress pour gagner un bonus de +1 à votre Maîtrise lors d'une attaque avec l'arme principale."
+                            "description": "Cochez 1 Stress pour gagner un bonus de +1 à votre Maîtrise lors d'une attaque avec l'arme principale."
                         }
                     },
                     "effects": {
@@ -1202,21 +1141,21 @@
                 },
                 "deadly": {
                     "name": "Mortelle",
-                    "description": "Lorsque vous infligez des dégâts Graves, la cible doit ajouter une Blessure supplémentaire.",
+                    "description": "Lorsque vous infligez des dégâts Graves, la cible doit cocher un PV supplémentaire.",
                     "actions": {
                         "extraDamage": {
                             "name": "Mortalité",
-                            "description": "Lorsque vous infligez des dégâts Graves, la cible doit ajouter une Blessure supplémentaire."
+                            "description": "Lorsque vous infligez des dégâts Graves, la cible doit cocher un Point de Vie supplémentaire."
                         }
                     }
                 },
                 "deflecting": {
                     "name": "Déviante",
-                    "description": "Quand on vous attaque, ajoutez une Marque d'Armure pour ajouter votre score d'Armure à votre Évasion contre cette attaque.",
+                    "description": "Quand on vous attaque, cochez un Emplacement d'Armure pour ajouter votre score d'Armure à votre Évasion contre cette attaque.",
                     "actions": {
                         "deflect": {
                             "name": "Déviation",
-                            "description": "Quand on vous attaque, ajoutez une Marque d'Armure pour ajouter votre score d'Armure à votre Évasion contre cette attaque."
+                            "description": "Quand on vous attaque, cochez un Emplacement d'Armure pour ajouter votre score d'Armure à votre Évasion contre cette attaque."
                         }
                     },
                     "effects": {
@@ -1228,11 +1167,11 @@
                 },
                 "destructive": {
                     "name": "Destructrice",
-                    "description": "-1 à l'Agilité ; en cas de réussite d'une attaque, tous les adversaires à portée Très Proche doivent ajouter 1 point de Stress.",
+                    "description": "-1 à l'Agilité ; en cas de réussite d'une attaque, tous les adversaires à portée Très courte doivent cocher 1 Stress.",
                     "actions": {
                         "attack": {
                             "name": "Destruction",
-                            "description": "En cas de réussite d'une attaque, tous les adversaires à portée Très Proche doivent ajouter 1 point de Stress."
+                            "description": "En cas de réussite d'une attaque, tous les adversaires à portée Très courte doivent cocher 1 Stress."
                         }
                     },
                     "effects": {
@@ -1244,11 +1183,11 @@
                 },
                 "devastating": {
                     "name": "Dévastatrice",
-                    "description": "Avant un jet d'attaque, vous pouvez ajouter 1 point de Stress pour utiliser un d20 pour vos dégâts.",
+                    "description": "Avant un jet d'attaque, vous pouvez cocher 1 Stress pour utiliser un d20 pour vos dégâts.",
                     "actions": {
                         "devastate": {
                             "name": "Dévastation",
-                            "description": "Avant un jet d'attaque, vous pouvez ajouter 1 point de Stress pour utiliser un d20 pour vos dégâts."
+                            "description": "Avant un jet d'attaque, vous pouvez cocher 1 Stress pour utiliser un d20 pour vos dégâts."
                         }
                     }
                 },
@@ -1274,21 +1213,21 @@
                 },
                 "dueling": {
                     "name": "De Duelliste",
-                    "description": "S'il n'y a pas d'autres créatures à portée Proche de la cible, vous avez l'avantage sur votre jet d'attaque contre elle.",
+                    "description": "S'il n'y a pas d'autres créatures à portée Courte de la cible, vous avez l'avantage sur votre jet d'attaque contre elle.",
                     "actions": {
                         "duel": {
                             "name": "Duel",
-                            "description": "S'il n'y a pas d'autres créatures à portée Proche de la cible, vous avez l'avantage sur votre jet d'attaque contre elle."
+                            "description": "S'il n'y a pas d'autres créatures à portée Courte de la cible, vous avez l'avantage sur votre jet d'attaque contre elle."
                         }
                     }
                 },
                 "eruptive": {
                     "name": "Éruptive",
-                    "description": "En cas de réussite d'une attaque à portée Mêlée, tous les autres adversaires à portée Très Proche doivent réussir un jet de réaction (14) ou subir la moitié des dégâts.",
+                    "description": "En cas de réussite d'une attaque à portée Mêlée, tous les autres adversaires à portée Très courte doivent réussir un jet de réaction (14) ou subir la moitié des dégâts.",
                     "actions": {
                         "erupt": {
                             "name": "Éruption",
-                            "description": "En cas de réussite d'une attaque à portée Mêlée, tous les autres adversaires à portée Très Proche doivent réussir un jet de réaction (14) ou subir la moitié des dégâts."
+                            "description": "En cas de réussite d'une attaque à portée Mêlée, tous les autres adversaires à portée Très courte doivent réussir un jet de réaction (14) ou subir la moitié des dégâts."
                         }
                     }
                 },
@@ -1314,11 +1253,11 @@
                 },
                 "healing": {
                     "name": "De Soin",
-                    "description": "Durant les temps de repos, efface automatiquement une Blessure.",
+                    "description": "Durant les temps de repos, efface automatiquement un Point de Vie.",
                     "actions": {
                         "heal": {
                             "name": "Soin",
-                            "description": "Durant les temps de repos, efface automatiquement une Blessure."
+                            "description": "Durant les temps de repos, efface automatiquement un Point de Vie."
                         }
                     }
                 },
@@ -1354,21 +1293,21 @@
                 },
                 "invigorating": {
                     "name": "Vivifiante",
-                    "description": "En cas de réussite d'une attaque, jetez un d4. Sur un 4, effacez un point de Stress.",
+                    "description": "En cas de réussite d'une attaque, jetez un d4. Sur un 4, effacez 1 Stress.",
                     "actions": {
                         "invigorate": {
                             "name": "Vivification",
-                            "description": "En cas de réussite d'une attaque, jetez un d4. Sur un 4, effacez un point de Stress."
+                            "description": "En cas de réussite d'une attaque, jetez un d4. Sur un 4, effacez 1 Stress."
                         }
                     }
                 },
                 "lifestealing": {
                     "name": "Vampirique",
-                    "description": "En cas de réussite d'une attaque, jetez un d6. Sur un 6, effacez une Blessure ou de Stress.",
+                    "description": "En cas de réussite d'une attaque, jetez un d6. Sur un 6, effacez 1 PV ou Stress.",
                     "actions": {
                         "lifesteal": {
                             "name": "Vampirisme",
-                            "description": "En cas de réussite d'une attaque, jetez un d6. Sur un 6, effacez une Blessure ou un Stress."
+                            "description": "En cas de réussite d'une attaque, jetez un d6. Sur un 6, effacez 1 PV ou Stress."
                         }
                     }
                 },
@@ -1394,11 +1333,11 @@
                 },
                 "lucky": {
                     "name": "Chanceuse",
-                    "description": "En cas d'échec d'une attaque, vous pouvez ajouter 1 point de Stress pour la relancer.",
+                    "description": "En cas d'échec d'une attaque, vous pouvez cocher 1 Stress pour la relancer.",
                     "actions": {
                         "luck": {
                             "name": "Chance",
-                            "description": "En cas d'échec d'une attaque, vous pouvez ajouter 1 point de Stress pour la relancer."
+                            "description": "En cas d'échec d'une attaque, vous pouvez cocher 1 Stress pour la relancer."
                         }
                     }
                 },
@@ -1414,11 +1353,11 @@
                 },
                 "painful": {
                     "name": "Douloureuse",
-                    "description": "À chaque réussite d'attaque, vous devez ajouter 1 point de Stress.",
+                    "description": "À chaque réussite d'attaque, vous devez cocher 1 Stress.",
                     "actions": {
                         "pain": {
                             "name": "Douleur",
-                            "description": "À chaque réussite d'attaque, vous devez ajouter 1 point de Stress."
+                            "description": "À chaque réussite d'attaque, vous devez cocher 1 Stress."
                         }
                     }
                 },
@@ -1450,11 +1389,11 @@
                 },
                 "persuasive": {
                     "name": "Persuasive",
-                    "description": "Avant de faire un jet de Présence, vous pouvez ajouter 1 point de Stress pour gagner un bonus de +2 au résultat.",
+                    "description": "Avant de faire un jet de Présence, vous pouvez cocher 1 Stress pour gagner un bonus de +2 au résultat.",
                     "actions": {
                         "persuade": {
                             "name": "Persuasion",
-                            "description": "Avant de faire un jet de Présence, vous pouvez ajouter 1 point de Stress pour gagner un bonus de +2 au résultat."
+                            "description": "Avant de faire un jet de Présence, vous pouvez cocher 1 Stress pour gagner un bonus de +2 au résultat."
                         }
                     },
                     "effects": {
@@ -1496,11 +1435,11 @@
                 },
                 "quick": {
                     "name": "Rapide",
-                    "description": "Quand vous faites une attaque, vous pouvez ajouter 1 point de Stress pour cibler une autre créature à portée.",
+                    "description": "Quand vous faites une attaque, vous pouvez cocher 1 Stress pour cibler une autre créature à portée.",
                     "actions": {
                         "quick": {
                             "name": "Rapidité",
-                            "description": "Quand vous faites une attaque, vous pouvez ajouter 1 point de Stress pour cibler une autre créature à portée."
+                            "description": "Quand vous faites une attaque, vous pouvez cocher 1 Stress pour cibler une autre créature à portée."
                         }
                     }
                 },
@@ -1516,11 +1455,11 @@
                 },
                 "reloading": {
                     "name": "Rechargeable",
-                    "description": "Après une attaque, jetez un d6. Sur un 1, vous devez ajouter 1 point de Stress pour recharger cette arme avant de pouvoir tirer à nouveau.",
+                    "description": "Après une attaque, jetez un d6. Sur un 1, vous devez cocher 1 Stress pour recharger cette arme avant de pouvoir tirer à nouveau.",
                     "actions": {
                         "reload": {
                             "name": "Recharger",
-                            "description": "Après une attaque, jetez un d6. Sur un 1, vous devez ajouter 1 point de Stress pour recharger cette arme avant de pouvoir tirer à nouveau."
+                            "description": "Après une attaque, jetez un d6. Sur un 1, vous devez cocher 1 Stress pour recharger cette arme avant de pouvoir tirer à nouveau."
                         }
                     }
                 },
@@ -1546,11 +1485,11 @@
                 },
                 "scary": {
                     "name": "Effrayante",
-                    "description": "En cas de réussite d'une attaque, la cible doit ajouter 1 point de Stress.",
+                    "description": "En cas de réussite d'une attaque, la cible doit cocher 1 Stress.",
                     "actions": {
                         "scare": {
                             "name": "Effroi",
-                            "description": "En cas de réussite d'une attaque, la cible doit ajouter 1 point de Stress."
+                            "description": "En cas de réussite d'une attaque, la cible doit cocher 1 Stress."
                         }
                     }
                 },
@@ -1586,21 +1525,21 @@
                 },
                 "sheltering": {
                     "name": "Protectrice",
-                    "description": "Quand vous ajoutez une Marque d'Armure, cela réduit les dégâts pour vous et tous les alliés à portée Mêlée ayant subi les mêmes dégâts.",
+                    "description": "Quand vous cochez un Emplacement d'Armure, cela réduit les dégâts pour vous et tous les alliés à portée Mêlée ayant subi les mêmes dégâts.",
                     "actions": {
                         "shelter": {
                             "name": "Abri",
-                            "description": "Quand vous ajoutez une Marque d'Armure, cela réduit les dégâts pour vous et tous les alliés à portée Mêlée ayant subi les mêmes dégâts."
+                            "description": "Quand vous cochez un Emplacement d'Armure, cela réduit les dégâts pour vous et tous les alliés à portée Mêlée ayant subi les mêmes dégâts."
                         }
                     }
                 },
                 "startling": {
                     "name": "Saisissante",
-                    "description": "Ajoutez 1 point de Stress pour donner un coup de fouet et forcer tous les adversaires à portée Mêlée à reculer à portée Proche.",
+                    "description": "Cochez 1 Stress pour donner un coup de fouet et forcer tous les adversaires à portée Mêlée à reculer à portée Courte.",
                     "actions": {
                         "startle": {
                             "name": "Saisissement",
-                            "description": "Ajoutez 1 point de Stress pour donner un coup de fouet et forcer tous les adversaires à portée Mêlée à reculer à portée Proche."
+                            "description": "Cochez 1 Stress pour donner un coup de fouet et forcer tous les adversaires à portée Mêlée à reculer à portée Courte."
                         }
                     }
                 },
@@ -1637,7 +1576,7 @@
                     "name": "Dégâts"
                 },
                 "hitPoints": {
-                    "name": "Blessures"
+                    "name": "Points de Vie"
                 },
                 "reach": {
                     "name": "Allonge"
@@ -1670,27 +1609,27 @@
                     "downtimeAction": "Action de repos",
                     "shortRest": {
                         "shortRestMoves": {
-                            "label": "Court Repos : Mouvements bonus de court repos",
-                            "hint": "Le nombre de Mouvements de Court Repos supplémentaires que le personnage peut effectuer."
+                            "label": "Repos Court : Mouvements bonus de Repos Court",
+                            "hint": "Le nombre de Mouvements de Repos Court supplémentaires que le personnage peut effectuer."
                         },
                         "longRestMoves": {
-                            "label": "Court Repos : Mouvements bonus de long repos",
-                            "hint": "Le nombre de Mouvements de Long Repos supplémentaires que le personnage peut effectuer durant un Court Repos."
+                            "label": "Repos Court : Mouvements bonus de Repos Long",
+                            "hint": "Le nombre de Mouvements de Repos Long supplémentaires que le personnage peut effectuer durant un Repos Court."
                         }
                     },
                     "longRest": {
                         "shortRestMoves": {
-                            "label": "Long Repos : Mouvements bonus de court repos",
-                            "hint": "Le nombre de Mouvements de Court Repos supplémentaires que le personnage peut effectuer durant un Long Repos."
+                            "label": "Repos Long : Mouvements bonus de Repos Court",
+                            "hint": "Le nombre de Mouvements de Repos Court supplémentaires que le personnage peut effectuer durant un Repos Long."
                         },
                         "longRestMoves": {
-                            "label": "Long Repos : Mouvements bonus de long repos",
-                            "hint": "Le nombre de Mouvements de Long Repos supplémentaires que le personnage peut effectuer durant un Long Repos."
+                            "label": "Repos Long : Mouvements bonus de Repos Long",
+                            "hint": "Le nombre de Mouvements de Repos Long supplémentaires que le personnage peut effectuer durant un Repos Long."
                         }
                     }
                 },
                 "maxLoadout": {
-                    "label": "Bonus au nombre max de cartes de panoplie"
+                    "label": "Bonus des cartes maximal"
                 }
             },
             "Character": {
@@ -1702,7 +1641,7 @@
                 "plural": "Coûts"
             },
             "Damage": {
-                "severe": "Sévères",
+                "severe": "Graves",
                 "major": "Majeurs",
                 "minor": "Mineurs",
                 "none": "Aucun",
@@ -1743,9 +1682,9 @@
                 "title": "Seuils de dégâts",
                 "minor": "Mineur",
                 "major": "Majeur",
-                "severe": "Sévère",
+                "severe": "Grave",
                 "majorThreshold": "Seuil de dégâts majeurs",
-                "severeThreshold": "Seuil de dégâts sévères",
+                "severeThreshold": "Seuil de dégâts graves",
                 "with": "Seuil de dégâts {threshold}"
             },
             "Dice": {
@@ -1825,10 +1764,10 @@
                 "weapon": "Allonge accrue : Arme"
             },
             "RefreshType": {
-                "scene": "Scene",
+                "scene": "Scène",
                 "session": "Session",
-                "shortrest": "Court Repos",
-                "longrest": "Long Repos"
+                "shortrest": "Repos Court",
+                "longrest": "Repos Long"
             },
             "Resource": {
                 "single": "Ressource",
@@ -1840,7 +1779,7 @@
                 "difficulty": "Jet (Difficulté {difficulty})",
                 "primaryWeaponAttack": "Jet d'attaque avec l'arme principale",
                 "secondaryWeaponAttack": "Jet d'attaque avec l'arme secondaire",
-                "spellcast": "Jet de sort",
+                "spellcast": "Jet d'Incantation",
                 "trait": "Jet de trait",
                 "action": "Jet d'action",
                 "reaction": "Jet de réaction"
@@ -1848,13 +1787,13 @@
             "Rules": {
                 "damageReduction": {
                     "increasePerArmorMark": {
-                        "label": "Réduction de dégâts par Marque d'Armure",
-                        "hint": "Une Marque d'Armure utilisé réduit normalement les dégâts d'un seuil. Cette valeur augmente ce nombre de seuils."
+                        "label": "Réduction de dégâts par Emplacement d'Armure",
+                        "hint": "Un Emplacement d'Armure utilisé réduit normalement les dégâts d'un seuil. Cette valeur augmente ce nombre de seuils."
                     },
                     "maxArmorMarkedBonus": "Max d'armure utilisée",
                     "maxArmorMarkedStress": {
                         "label": "Max d'armure utilisée avec Stress",
-                        "hint": "Si cette valeur est définie, vous pouvez ajouter ce montant de Stress pour ajouter plus de Marques d'Armure que votre maximum normal."
+                        "hint": "Si cette valeur est définie, vous pouvez cocher ce montant de Stress pour cocher plus d'Emplacements d'Armure que votre maximum normal."
                     },
                     "Stress": {
                         "any": {
@@ -1862,8 +1801,8 @@
                             "hint": "Le coût en Stress que vous pouvez payer pour réduire les dégâts entrants d'un seuil."
                         },
                         "severe": {
-                            "label": "Réduction de dégâts par Stress : Sévères",
-                            "hint": "Le coût en Stress que vous pouvez payer pour réduire les dégâts sévères en dégâts majeurs."
+                            "label": "Réduction de dégâts par Stress : Graves",
+                            "hint": "Le coût en Stress que vous pouvez payer pour réduire les dégâts graves en dégâts majeurs."
                         },
                         "major": {
                             "label": "Réduction de dégâts par Stress : Majeurs",
@@ -1881,14 +1820,10 @@
                             "label": "Attaque de base : Indice des dés de dégâts",
                             "hint": "Indice pour les dés de dégâts utilisés sur l'attaque de base. 0=d4, 1=d6, 2=d8, 3=d10, 4=d12, 5=d20"
                         },
-                        "bonus": {
-                            "label": "Attaque de base : Bonus de dégâts"
-                        }
+                        "bonus": { "label": "Attaque de base : Bonus de dégâts" }
                     },
                     "roll": {
-                        "trait": {
-                            "label": "Attaque de base : Trait"
-                        }
+                        "trait": { "label": "Attaque de base : Trait" }
                     }
                 }
             },
@@ -1910,7 +1845,7 @@
                 "information": "Informations",
                 "notes": "Notes",
                 "inventory": "Inventaire",
-                "loadout": "Panoplie",
+                "loadout": "Main",
                 "vault": "Réserve",
                 "heritage": "Héritage",
                 "story": "Histoire",
@@ -1949,7 +1884,7 @@
             "armor": "Armure",
             "armorScore": "Valeur d'armure",
             "activeEffects": "Effets actifs",
-            "armorSlots": "Marques Arm.",
+            "armorSlots": "Empl. Armure",
             "attack": "Attaque",
             "basics": "Bases",
             "bonus": "Bonus",
@@ -1986,12 +1921,12 @@
                 "plural": "Réussites"
             },
             "HitPoints": {
-                "single": "Blessure",
-                "plural": "Blessures",
-                "short": "Blessures"
+                "single": "Point de Vie",
+                "plural": "Points de Vie",
+                "short": "PV"
             },
             "hope": "Espoir",
-            "hordeHp": "Blessures de la horde",
+            "hordeHp": "PV de la horde",
             "identify": "Identité",
             "imagePath": "Chemin de l'image",
             "inactiveEffects": "Effets inactifs",
@@ -2000,7 +1935,7 @@
             "label": "Étiquette",
             "level": "Niveau",
             "levelUp": "Passer au niveau suivant",
-            "loadout": "Panoplie",
+            "loadout": "Main",
             "max": "Max",
             "miss": {
                 "single": "Échec",
@@ -2050,30 +1985,14 @@
         "ITEMS": {
             "FIELDS": {
                 "resource": {
-                    "amount": {
-                        "label": "Montant"
-                    },
-                    "dieFaces": {
-                        "label": "Faces de dé"
-                    },
-                    "icon": {
-                        "label": "Icône"
-                    },
-                    "max": {
-                        "label": "Max"
-                    },
-                    "progression": {
-                        "label": "Progression"
-                    },
-                    "recovery": {
-                        "label": "Récupération"
-                    },
-                    "type": {
-                        "label": "Type"
-                    },
-                    "value": {
-                        "label": "Valeur"
-                    }
+                    "amount": { "label": "Montant" },
+                    "dieFaces": { "label": "Faces de dé" },
+                    "icon": { "label": "Icône" },
+                    "max": { "label": "Max" },
+                    "progression": { "label": "Progression" },
+                    "recovery": { "label": "Récupération" },
+                    "type": { "label": "Type" },
+                    "value": { "label": "Valeur" }
                 }
             },
             "Ancestry": {
@@ -2085,59 +2004,31 @@
                 "baseThresholds": {
                     "base": "Seuils de base",
                     "major": "Seuil majeur",
-                    "severe": "Seuil sévère"
+                    "severe": "Seuil grave"
                 }
             },
             "Beastform": {
                 "FIELDS": {
-                    "beastformType": {
-                        "label": "Type de forme"
-                    },
-                    "tier": {
-                        "label": "Niveau"
-                    },
-                    "mainTrait": {
-                        "label": "Trait principal"
-                    },
-                    "examples": {
-                        "label": "Exemples"
-                    },
-                    "advantageOn": {
-                        "label": "Avantage sur"
-                    },
-                    "tokenImg": {
-                        "label": "Image de jeton"
-                    },
-                    "tokenRingImg": {
-                        "label": "Texture"
-                    },
+                    "beastformType": { "label": "Type de forme" },
+                    "tier": { "label": "Rang" },
+                    "mainTrait": { "label": "Trait principal" },
+                    "examples": { "label": "Exemples" },
+                    "advantageOn": { "label": "Avantage sur" },
+                    "tokenImg": { "label": "Image de jeton" },
+                    "tokenRingImg": { "label": "Texture" },
                     "tokenSize": {
                         "placeholder": "Utilise les dimensions du perso",
-                        "height": {
-                            "label": "Hauteur"
-                        },
-                        "width": {
-                            "label": "Largeur"
-                        }
+                        "height": { "label": "Hauteur" },
+                        "width": { "label": "Largeur" }
                     },
                     "evolved": {
-                        "maximumTier": {
-                            "label": "Niveau maximum"
-                        },
-                        "mainTraitBonus": {
-                            "label": "Bonus de Trait principal"
-                        }
+                        "maximumTier": { "label": "Rang maximum" },
+                        "mainTraitBonus": { "label": "Bonus de Trait principal" }
                     },
                     "hybrid": {
-                        "beastformOptions": {
-                            "label": "Nombre de formes"
-                        },
-                        "advantages": {
-                            "label": "Nombre d'avantages"
-                        },
-                        "features": {
-                            "label": "Nombre de Traits"
-                        }
+                        "beastformOptions": { "label": "Nombre de formes" },
+                        "advantages": { "label": "Nombre d'avantages" },
+                        "features": { "label": "Nombre de Traits" }
                     }
                 },
                 "attackName": "Attaque bestiale",
@@ -2188,15 +2079,9 @@
         "SETTINGS": {
             "Appearance": {
                 "FIELDS": {
-                    "displayFear": {
-                        "label": "Affichage de la Peur"
-                    },
-                    "dualityColorScheme": {
-                        "label": "Style du chat"
-                    },
-                    "showGenericStatusEffects": {
-                        "label": "Afficher les effets de statut de Foundry"
-                    }
+                    "displayFear": { "label": "Affichage de la Peur" },
+                    "dualityColorScheme": { "label": "Style du chat" },
+                    "showGenericStatusEffects": { "label": "Afficher les effets de statut de Foundry" }
                 },
                 "fearDisplay": {
                     "token": "Jetons",
@@ -2216,12 +2101,8 @@
                     },
                     "hopeFear": {
                         "label": "Espoir & Peur",
-                        "gm": {
-                            "label": "MJ"
-                        },
-                        "players": {
-                            "label": "Joueurs"
-                        }
+                        "gm": { "label": "MJ" },
+                        "players": { "label": "Joueurs" }
                     },
                     "levelupAuto": {
                         "label": "Automatisation de niveau",
@@ -2233,7 +2114,7 @@
                     },
                     "hordeDamage": {
                         "label": "Dégâts de horde auto",
-                        "hint": "Active l'effet de horde auto pour réduire les dégâts si les Blessures sont à moitié ou moins."
+                        "hint": "Active l'effet de horde auto pour réduire les dégâts si les PV sont à moitié ou moins."
                     },
                     "effects": {
                         "rangeDependent": {
@@ -2258,20 +2139,13 @@
                 "resetMovesTitle": "Réinitialiser les actions de repos",
                 "resetMovesText": "Voulez-vous vraiment réinitialiser?",
                 "FIELDS": {
-                    "maxFear": {
-                        "label": "Peur max"
-                    },
-                    "traitArray": {
-                        "label": "Modificateurs de Traits initiaux"
-                    },
+                    "maxFear": { "label": "Peur max" },
+                    "traitArray": { "label": "Modificateurs de Traits initiaux" },
                     "maxLoadout": {
-                        "label": "Cartes max dans la panoplie",
+                        "label": "Bonus des cartes maximal",
                         "hint": "Laisser vide ou 0 pour un max illimité"
                     },
-                    "maxDomains": {
-                        "label": "Domaines de classe max",
-                        "hint": "Max de domaines pour une classe"
-                    }
+                    "maxDomains": { "label": "Domaines de classe max", "hint": "Max de domaines pour une classe" }
                 },
                 "currency": {
                     "enabled": "Activer les modifications",
@@ -2348,12 +2222,8 @@
             "VariantRules": {
                 "FIELDS": {
                     "actionTokens": {
-                        "enabled": {
-                            "label": "Activé"
-                        },
-                        "tokens": {
-                            "label": "Jetons"
-                        }
+                        "enabled": { "label": "Activé" },
+                        "tokens": { "label": "Jetons" }
                     }
                 }
             },
@@ -2386,7 +2256,7 @@
                     "currentTarget": "Cible actuelle"
                 },
                 "deathMove": {
-                    "title": "Action de mort"
+                    "title": "Acte de mort"
                 },
                 "dicePool": {
                     "title": "Réserve de dés"
@@ -2449,7 +2319,7 @@
                 "primaryIsTwoHanded": "Impossible de sélectionner une arme secondaire si la principale est à deux mains!",
                 "noMoreMoves": "Vous ne pouvez pas choisir d'autres actions de repos.",
                 "damageAlreadyNone": "Les dégâts ont déjà été réduits à zéro.",
-                "noAvailableArmorMarks": "Vous n'avez plus de Marques d'Armure disponibles.",
+                "noAvailableArmorMarks": "Vous n'avez plus d'Emplacements d'Armure disponibles.",
                 "notEnoughStress": "Vous n'avez pas assez de Stress.",
                 "damageIgnore": "{character} n'a pas subi de dégâts.",
                 "featureIsMissing": "Trait manquant.",
@@ -2468,7 +2338,7 @@
                 "beastformToManyAdvantages": "Vous ne pouvez plus sélectionner d'avantages.",
                 "beastformToManyFeatures": "Vous ne pouvez plus sélectionner de traits.",
                 "beastformEquipWeapon": "Vous ne pouvez pas utiliser d'armes sous forme bestiale.",
-                "loadoutMaxReached": "Limite de panoplie atteinte. Déplacez une carte vers le Coffre, ou augmentez la limite dans les paramètres maison.",
+                "loadoutMaxReached": "Limite de Main atteinte. Déplacez une carte vers le Coffre, ou augmentez la limite dans les paramètres maison.",
                 "domainMaxReached": "Limite de domaines pour la classe atteinte. Augmentez la limite dans les paramètres maison si vous le souhaitez.",
                 "insufficientResources": "Ressources insuffisantes.",
                 "multiclassAlreadyPresent": "Vous avez déjà une classe et une multiclasse.",
@@ -2480,15 +2350,15 @@
                 "enableEffect": "Activer l'effet",
                 "openItemWorld": "Ouvrir l'objet",
                 "openActorWorld": "Ouvrir le PNJ",
-                "sendToChat": "Envoyer au chat",
+                "sendToChat": "Envoyer dans le chat",
                 "maxEvasionClassBound": "Votre base d'Évasion est liée à votre classe. Ceci est le bonus ajouté à la base",
-                "maxHPClassBound": "Votre base de Blessures max est liée à votre classe. Ceci est le bonus ajouté à la base",
+                "maxHPClassBound": "Votre base de PV max est liée à votre classe. Ceci est le bonus ajouté à la base",
                 "moreOptions": "Plus d'options",
                 "equip": "Équiper",
                 "unequip": "Déséquiper",
                 "sendToVault": "Envoyer au Coffre",
-                "sendToLoadout": "Envoyer à la panoplie",
-                "makeDeathMove": "Faire une action de mort",
+                "sendToLoadout": "Envoyer à la main",
+                "makeDeathMove": "Faire un Acte de mort",
                 "rangeAndTarget": "Portée et cible",
                 "dragApplyEffect": "Glissez l'effet pour l'appliquer au PNJ",
                 "appliedEvenIfSuccessful": "Appliqué même si la sauvegarde est réussie",
