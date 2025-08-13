@@ -5,7 +5,7 @@
             "community": "Communauté",
             "class": "Classe",
             "subclass": "Sous-classe",
-            "feature": "Capacité",
+            "feature": "Spécificité",
             "domainCard": "Carte de Domaine",
             "consumable": "Consommable",
             "loot": "Butin",
@@ -31,7 +31,7 @@
             "TYPES": {
                 "attack": {
                     "name": "Attaque",
-                    "tooltip": "Action offensive comme une attaque, un sort, etc."
+                    "tooltip": "Action offensive comme une attaque, un sortilège, etc."
                 },
                 "beastform": {
                     "name": "Forme animale",
@@ -47,7 +47,7 @@
                 },
                 "healing": {
                     "name": "Soin",
-                    "tooltip": "Restaure les ressources de la cible. Peut avoir un jet de dé."
+                    "tooltip": "Restaure les ressources de la cible. Possibilité de configurer un jet de dé."
                 },
                 "macro": {
                     "name": "Macro",
@@ -60,8 +60,8 @@
             },
             "Config": {
                 "beastform": {
-                    "exact": "Niveau max de la Forme animale",
-                    "exactHint": "Le Niveau du personnage est utilisé si le champ est vide.",
+                    "exact": "Rang max de la Forme animale",
+                    "exactHint": "Le Rang du personnage est utilisé si le champ est vide.",
                     "label": "Forme animale"
                 },
                 "displayInChat": "Afficher dans le chat"
@@ -102,7 +102,7 @@
                 }
             },
             "RangeDependance": {
-                "hint": "Paramètres pour une distance optionnelle à laquelle cet effet devrait s'activer",
+                "hint": "Paramètres pour une portée optionnelle à laquelle cet effet devrait s'activer",
                 "title": "Dépend de la portée"
             }
         },
@@ -153,13 +153,13 @@
                     "hint": "Ajoutez des mots-clés ou des textes courts pour vous rappeler des sources d'avantage."
                 },
                 "age": "Âge",
-                "companionFeatures": "Capacités de compagnon",
+                "companionFeatures": "Spécificités de compagnon",
                 "contextMenu": {
                     "consume": "Consommer l'objet",
                     "equip": "Équiper",
                     "sendToChat": "Envoyer dans le chat",
-                    "toLoadout": "Envoyer dans la main",
-                    "toVault": "Envoyer au coffre",
+                    "toLoadout": "Envoyer dans la Main",
+                    "toVault": "Envoyer dans le Caveau",
                     "unequip": "Déséquiper",
                     "useItem": "Utiliser l'objet"
                 },
@@ -175,7 +175,7 @@
                 "story": {
                     "backgroundTitle": "Historique",
                     "characteristics": "Caractéristiques",
-                    "connectionsTitle": "Connexions"
+                    "connectionsTitle": "Liens"
                 },
                 "experienceDataRemoveConfirmation": {
                     "title": "Supprimer les données d'expérience",
@@ -280,8 +280,8 @@
                 "enableEffect": "Activer l'effet",
                 "equip": "Équiper",
                 "sendToChat": "Envoyer dans le chat",
-                "toLoadout": "Envoyer dans la main",
-                "toVault": "Envoyer au coffre",
+                "toLoadout": "Envoyer dans la Main",
+                "toVault": "Envoyer dans le Caveau",
                 "unequip": "Déséquiper",
                 "useItem": "Utiliser l'objet"
             },
@@ -335,10 +335,10 @@
             "Downtime": {
                 "longRest": {
                     "title": "Repos long",
-                    "moves": "Manœuvres de repos long ({current}/{max})",
+                    "moves": "Actes de repos long ({current}/{max})",
                     "clearStress": {
-                        "description": "Décrivez comment vous vous défoulez ou vous reprenez en main, puis effacez tout le Stress marqué.",
-                        "name": "Effacer le Stress"
+                        "description": "Décrivez comment vous vous défoulez ou vous reprenez en main, puis effacez tout le Stress coché.",
+                        "name": "Enlever du Stress"
                     },
                     "prepare": {
                         "description": "Décrivez comment vous vous préparez pour l'aventure du lendemain, puis gagnez un Espoir. Si vous choisissez de vous préparer avec un ou plusieurs membres de votre groupe, vous pouvez chacun prendre deux Espoirs.",
@@ -362,15 +362,15 @@
                     "moves": "Manœuvres de repos court ({current}/{max})",
                     "tendToWounds": {
                         "name": "Soigner les blessures",
-                        "description": "Décrivez comment vous vous soignez à la hâte, puis effacez un nombre de PV égales à 1d4 + votre niveau. Vous pouvez le faire pour un allié."
+                        "description": "Décrivez comment vous vous soignez à la hâte, puis effacez un nombre de PV égales à 1d4 + votre rang. Vous pouvez le faire pour un allié."
                     },
                     "clearStress": {
-                        "name": "Effacer le Stress",
-                        "description": "Décrivez comment vous vous défoulez ou vous reprenez en main, puis effacez un nombre de Stress égal à 1d4 + votre niveau."
+                        "name": "Enlever du Stress",
+                        "description": "Décrivez comment vous vous défoulez ou vous reprenez en main, puis effacez un nombre de Stress égal à 1d4 + votre rang."
                     },
                     "repairArmor": {
                         "name": "Réparer l'armure",
-                        "description": "Décrivez comment vous réparez rapidement votre armure, puis effacez un nombre d'Emplacements d'Armure égal à 1d4 + votre niveau. Vous pouvez le faire pour l'armure d'un allié."
+                        "description": "Décrivez comment vous réparez rapidement votre armure, puis effacez un nombre d'Emplacements d'Armure égal à 1d4 + votre rang. Vous pouvez le faire pour l'armure d'un allié."
                     },
                     "prepare": {
                         "name": "Se préparer",
@@ -384,13 +384,13 @@
             },
             "HUD": {
                 "tokenHUD": {
-                    "genericEffects": "Effets Foundry"
+                    "genericEffects": "Effets de Foundry"
                 }
             },
             "Levelup": {
                 "actions": {
                     "creatureComfort": {
-                        "name": "Le confort de la créature",
+                        "name": "Réconfort",
                         "description": "Une fois par repos, lorsque vous prenez un moment de calme pour donner de l'amour et de l'attention à votre compagnon, vous pouvez gagner un Espoir ou vous pouvez tous les deux effacer un Stress."
                     },
                     "armored": {
@@ -399,7 +399,7 @@
                     },
                     "bonded": {
                         "name": "Lié",
-                        "description": "Lorsque vous cochez votre dernier PV, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6, votre compagnon vous aide à vous relever. Effacez votre dernier PV et revenez dans la scène."
+                        "description": "Lorsque vous cochez votre dernier PV, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6 sur l'un deux, votre compagnon vous aide à vous relever. Effacez votre dernier PV et revenez dans la scène."
                     }
                 },
                 "choiceDescriptions": {
@@ -410,7 +410,7 @@
                     "domainCard": "Choisissez une carte de domaine supplémentaire de votre niveau ou inférieur dans un domaine auquel vous avez accès (jusqu'au niveau {maxLevel})",
                     "evasion": "Gagnez un bonus de +1 à votre Évasion de façon permanente.",
                     "proficiency": "Augmentez votre Maîtrise de +1.",
-                    "subclass": "Prenez une carte de sous-classe améliorée. Puis barrez l'option multiclasse pour ce niveau.",
+                    "subclass": "Prenez une carte de sous-classe améliorée. Puis barrez l'option multiclasse pour ce rang.",
                     "multiclass": "Multiclasse : choisissez une classe supplémentaire pour votre personnage, puis barrez l'option 'Prendre une carte de sous-classe améliorée' et l'autre option multiclasse inutilisées sur cette feuille."
                 },
                 "delevel": {
@@ -427,7 +427,7 @@
                     "experience": "Gagnez un bonus de +1 à deux expériences de façon permanente.",
                     "domainCard": "Choisissez une carte de domaine supplémentaire de votre niveau ou inférieur dans un domaine auquel vous avez accès (jusqu'au niveau {maxLevel})",
                     "evasion": "Gagnez un bonus de +1 à votre Évasion de façon permanente.",
-                    "subclass": "Prenez une carte de sous-classe améliorée. Puis barrez l'option multiclasse pour ce niveau.",
+                    "subclass": "Prenez une carte de sous-classe améliorée. Puis barrez l'option multiclasse pour ce rang.",
                     "proficiency": "Augmentez votre Maîtrise de +1.",
                     "multiclass": "Multiclasse : choisissez une classe supplémentaire pour votre personnage, puis barrez l'option 'Prendre une carte de sous-classe améliorée' et l'autre option multiclasse inutilisées sur cette feuille.",
                     "intelligent": "Votre compagnon gagne un bonus permanent de +1 à une Expérience de compagnon de votre choix.",
@@ -464,7 +464,7 @@
                     "vicious": "Vicieux",
                     "damageIncreased": "Dégâts augmentés : {damage}",
                     "rangeIncreased": "Portée augmentée : {range}",
-                    "simpleFeature": "Capacité : {feature}"
+                    "simpleFeature": "Spécificité : {feature}"
                 },
                 "takeLevelUp": "Terminer la montée de niveau",
                 "tier2": {
@@ -524,18 +524,18 @@
             "AdversaryTrait": {
                 "relentless": {
                     "name": "Acharné",
-                    "description": "Un adversaire acharné peut s'activer jusqu'à X fois durant une manœuvre du MJ tant qu'il y a assez de jetons d'action.",
-                    "tip": "La manœuvre Acharné est utile si vous voulez un adversaire qui peut s'activer plus d'une fois au cours d'une seule manœuvre du MJ. C'est souvent le meilleur choix pour des ennemis exceptionnellement rapides ou dangereux, ou pour des adversaires qui sont susceptibles de se battre seuls contre le groupe."
+                    "description": "Un adversaire acharné peut s'activer jusqu'à X fois durant un acte du MJ tant qu'il y a assez de jetons d'action.",
+                    "tip": "L'acte Acharné est utile si vous voulez un adversaire qui peut s'activer plus d'une fois au cours d'une seule manœuvre du MJ. C'est souvent le meilleur choix pour des ennemis exceptionnellement rapides ou dangereux, ou pour des adversaires qui sont susceptibles de se battre seuls contre le groupe."
                 },
                 "slow": {
                     "name": "Lent",
                     "description": "Un adversaire lent coûte X jetons d'action pour s'activer.",
-                    "tip": "La manœuvre Lent est utile si vous voulez un adversaire qui met plus de temps à agir que les autres, comme une créature limace ou un ogre massif. C'est généralement plus efficace lorsque cette créature est très puissante quand elle agit, mais consomme beaucoup de jetons d'action pour le faire."
+                    "tip": "L'acte Lent est utile si vous voulez un adversaire qui met plus de temps à agir que les autres, comme une créature limace ou un ogre massif. C'est généralement plus efficace lorsque cette créature est très puissante quand elle agit, mais consomme beaucoup de jetons d'action pour le faire."
                 },
                 "minion": {
                     "name": "Sbire",
                     "description": "Pour chaque X dégâts qu'un PJ inflige à cet adversaire, il inflige aussi 1 PV à un sbire supplémentaire dans la portée de son attaque.",
-                    "tip": "La manœuvre Sbire est utile lorsque vous voulez placer beaucoup de petits ennemis sur le champ de bataille, en sachant que le groupe peut facilement s'en débarrasser. Cette manœuvre signifie que si un PJ frappe un sbire et qu'il inflige suffisamment de dégâts, il frappe également un certain nombre d'autres sbires qui sont à portée. Pour cette raison, il est souvent préférable d'avoir des sbires qui encerclent un PJ - cela semblera accablant et dangereux jusqu'à ce qu'il soit capable de faire une attaque contre eux. Si vous voulez cette sensation cinématique de personnages qui éliminent des vagues d'ennemis avec un seul jet d'attaque, les sbires sont un excellent outil pour y arriver."
+                    "tip": "L'acte Sbire est utile lorsque vous voulez placer beaucoup de petits ennemis sur le champ de bataille, en sachant que le groupe peut facilement s'en débarrasser. Cette manœuvre signifie que si un PJ frappe un sbire et qu'il inflige suffisamment de dégâts, il frappe également un certain nombre d'autres sbires qui sont à portée. Pour cette raison, il est souvent préférable d'avoir des sbires qui encerclent un PJ - cela semblera accablant et dangereux jusqu'à ce qu'il soit capable de faire une attaque contre eux. Si vous voulez cette sensation cinématique de personnages qui éliminent des vagues d'ennemis avec un seul jet d'attaque, les sbires sont un excellent outil pour y arriver."
                 }
             },
             "AdversaryType": {
@@ -548,7 +548,7 @@
                     "description": "Une Horde représente un groupe de nombreux ennemis."
                 },
                 "leader": {
-                    "label": "Chef",
+                    "label": "Meneur",
                     "description": "Adversaires qui commandent et invoquent d'autres adversaires."
                 },
                 "minion": {
@@ -821,8 +821,8 @@
                     "description": "Tant qu'une créature est cachée, elle ne peut pas être ciblée directement par des attaques et tous les jets contre elle sont faits avec un désavantage.\nLorsqu'une créature cachée se déplace ou attaque, elle n'est plus cachée. Cependant, si une créature est cachée lorsqu'elle commence à attaquer, le jet a un avantage ; la condition Caché n'est effacée qu'après la résolution de l'attaque."
                 },
                 "restrained": {
-                    "name": "Entravé",
-                    "description": "Lorsqu'un effet rend une créature Entravée, cela signifie qu'elle ne peut pas se déplacer tant que cette condition n'est pas levée.\nElle peut toujours prendre des actions depuis sa position actuelle."
+                    "name": "Bloqué",
+                    "description": "Lorsqu'un effet rend une créature Bloquée, cela signifie qu'elle ne peut pas se déplacer tant que cette condition n'est pas levée.\nElle peut toujours prendre des actions depuis sa position actuelle."
                 },
                 "unconscious": {
                     "name": "Inconscient",
@@ -1606,30 +1606,30 @@
             },
             "Bonuses": {
                 "rest": {
-                    "downtimeAction": "Action de repos",
+                    "downtimeAction": "Acte de repos",
                     "shortRest": {
                         "shortRestMoves": {
-                            "label": "Repos Court : Mouvements bonus de Repos Court",
-                            "hint": "Le nombre de Mouvements de Repos Court supplémentaires que le personnage peut effectuer."
+                            "label": "Repos Court : Actes bonus de Repos Court",
+                            "hint": "Le nombre d'actes de Repos Court supplémentaires que le personnage peut effectuer."
                         },
                         "longRestMoves": {
-                            "label": "Repos Court : Mouvements bonus de Repos Long",
-                            "hint": "Le nombre de Mouvements de Repos Long supplémentaires que le personnage peut effectuer durant un Repos Court."
+                            "label": "Repos Court : Actes bonus de Repos Long",
+                            "hint": "Le nombre d'actes de Repos Long supplémentaires que le personnage peut effectuer durant un Repos Court."
                         }
                     },
                     "longRest": {
                         "shortRestMoves": {
-                            "label": "Repos Long : Mouvements bonus de Repos Court",
-                            "hint": "Le nombre de Mouvements de Repos Court supplémentaires que le personnage peut effectuer durant un Repos Long."
+                            "label": "Repos Long : Actes bonus de Repos Court",
+                            "hint": "Le nombre d'actes de Repos Court supplémentaires que le personnage peut effectuer durant un Repos Long."
                         },
                         "longRestMoves": {
-                            "label": "Repos Long : Mouvements bonus de Repos Long",
-                            "hint": "Le nombre de Mouvements de Repos Long supplémentaires que le personnage peut effectuer durant un Repos Long."
+                            "label": "Repos Long : Actes bonus de Repos Long",
+                            "hint": "Le nombre d'actes de Repos Long supplémentaires que le personnage peut effectuer durant un Repos Long."
                         }
                     }
                 },
                 "maxLoadout": {
-                    "label": "Bonus des cartes maximal"
+                    "label": "Bonus de cartes max en Main"
                 }
             },
             "Character": {
@@ -1759,9 +1759,9 @@
                 "short": "aucun"
             },
             "Range": {
-                "other": "Allonge accrue : Autre",
-                "spell": "Allonge accrue : Sort",
-                "weapon": "Allonge accrue : Arme"
+                "other": "Portée accrue : Autre",
+                "spell": "Portée accrue : Sort",
+                "weapon": "Portée accrue : Arme"
             },
             "RefreshType": {
                 "scene": "Scène",
@@ -1831,7 +1831,7 @@
                 "details": "Détails",
                 "attack": "Attaque",
                 "experiences": "Expériences",
-                "features": "Capacités",
+                "features": "Spécificités",
                 "actions": "Actions",
                 "potentialAdversaries": "Adversaires potentiels",
                 "adversaries": "Adversaires",
@@ -1846,12 +1846,12 @@
                 "notes": "Notes",
                 "inventory": "Inventaire",
                 "loadout": "Main",
-                "vault": "Réserve",
+                "vault": "Caveau",
                 "heritage": "Héritage",
                 "story": "Histoire",
                 "biography": "Biographie",
                 "general": "Général",
-                "foundation": "Fondation",
+                "foundation": "De Base",
                 "specialization": "Spécialisation",
                 "mastery": "Maîtrise",
                 "optional": "Facultatif",
@@ -1884,7 +1884,7 @@
             "armor": "Armure",
             "armorScore": "Valeur d'armure",
             "activeEffects": "Effets actifs",
-            "armorSlots": "Empl. Armure",
+            "armorSlots": "Armure",
             "attack": "Attaque",
             "basics": "Bases",
             "bonus": "Bonus",
@@ -1900,7 +1900,7 @@
             "difficulty": "Difficulté",
             "downtime": "Repos",
             "dropActorsHere": "Déposez des Acteurs ici",
-            "dropFeaturesHere": "Déposez les Capacités ici",
+            "dropFeaturesHere": "Déposez les Spécificités ici",
             "duality": "Dualité",
             "dualityRoll": "Jet de dualité",
             "enabled": "Activé",
@@ -1912,7 +1912,7 @@
             },
             "failure": "Échec",
             "fear": "Peur",
-            "features": "Capacités",
+            "features": "Spécificités",
             "formula": "Formule",
             "healing": "Soin",
             "healingRoll": "Jet de soin",
@@ -1949,7 +1949,7 @@
             "partner": "Partenaire",
             "proficiency": "Maîtrise",
             "quantity": "Quantité",
-            "range": "Allonge",
+            "range": "Portée",
             "reactionRoll": "Jet de réaction",
             "recovery": "Récupération",
             "reroll": "Relancer",
@@ -2014,7 +2014,7 @@
                     "mainTrait": { "label": "Trait principal" },
                     "examples": { "label": "Exemples" },
                     "advantageOn": { "label": "Avantage sur" },
-                    "tokenImg": { "label": "Image de jeton" },
+                    "tokenImg": { "label": "Image de token" },
                     "tokenRingImg": { "label": "Texture" },
                     "tokenSize": {
                         "placeholder": "Utilise les dimensions du perso",
@@ -2028,24 +2028,24 @@
                     "hybrid": {
                         "beastformOptions": { "label": "Nombre de formes" },
                         "advantages": { "label": "Nombre d'avantages" },
-                        "features": { "label": "Nombre de Traits" }
+                        "features": { "label": "Nombre de Spécificités" }
                     }
                 },
                 "attackName": "Attaque bestiale",
                 "beastformEffect": "Transformation en bête",
                 "dialogTitle": "Sélection de forme bestiale",
-                "tokenTitle": "Jeton de forme bestiale",
+                "tokenTitle": "token de forme bestiale",
                 "transform": "Transformer",
                 "evolve": "Évoluer",
                 "evolvedFeatureTitle": "Évolué",
                 "evolvedDrag": "Glissez une forme pour l'évoluer.",
                 "hybridize": "Hybrider",
-                "hybridizeFeatureTitle": "Traits hybrides",
+                "hybridizeFeatureTitle": "Spécificités hybrides",
                 "hybridizeDrag": "Glissez une forme pour l'hybrider."
             },
             "Class": {
-                "hopeFeatures": "Traits d'Espoir",
-                "classFeatures": "Traits de classe",
+                "hopeFeatures": "Spécificités d'Espoir",
+                "classFeatures": "Spécificités de classe",
                 "guide": {
                     "suggestedEquipment": "Équipement suggéré",
                     "suggestedPrimaryWeaponTitle": "Arme principale",
@@ -2062,13 +2062,13 @@
             },
             "DomainCard": {
                 "type": "Type",
-                "recallCost": "Coût de rappel",
-                "foundationTitle": "Fondation",
+                "recallCost": "Prix de Rappel",
+                "foundationTitle": "De Base",
                 "specializationTitle": "Spécialisation",
                 "masteryTitle": "Maîtrise"
             },
             "Subclass": {
-                "spellcastingTrait": "Trait de lancer de sorts"
+                "spellcastingTrait": "Trait d'incantation"
             },
             "Weapon": {
                 "weaponType": "Type d'arme",
@@ -2097,7 +2097,7 @@
                 "FIELDS": {
                     "damageReductionRulesDefault": {
                         "label": "Règles de réduction de dégâts par défaut",
-                        "hint": "Que les règles d'armure et de réduction soient actives par défaut"
+                        "hint": "Activer les règles d'armure et de réduction des dégâts par défaut"
                     },
                     "hopeFear": {
                         "label": "Espoir & Peur",
@@ -2105,38 +2105,38 @@
                         "players": { "label": "Joueurs" }
                     },
                     "levelupAuto": {
-                        "label": "Automatisation de niveau",
-                        "hint": "Une fois les choix de niveau faits, les changements numériques sont appliqués au personnage."
+                        "label": "Automatisation de montée de niveau",
+                        "hint": "Une fois les choix de montée de niveau faits, les changements numériques sont appliqués au personnage."
                     },
                     "actionPoints": {
                         "label": "Points d'Action",
-                        "hint": "Donne et prend des Points d'Action auto en fonction du tour des combattants."
+                        "hint": "Donne et prend des Points d'Action automatiquement, en fonction du tour des combattants."
                     },
                     "hordeDamage": {
-                        "label": "Dégâts de horde auto",
-                        "hint": "Active l'effet de horde auto pour réduire les dégâts si les PV sont à moitié ou moins."
+                        "label": "Dégâts de horde automatiques",
+                        "hint": "Active l'effet de horde automatique, pour réduire leurs dégâts si les PV sont à moitié ou moins."
                     },
                     "effects": {
                         "rangeDependent": {
                             "label": "Effet lié à la portée",
-                            "hint": "Les effets avec une portée définie s'activent et se désactivent auto en fonction de la distance."
+                            "hint": "Les effets avec une portée définie s'activent et se désactivent automatiquement en fonction de la distance."
                         }
                     },
                     "resourceScrollTexts": {
                         "label": "Afficher les textes défilants de ressource",
-                        "hint": "Quand un personnage subit des dégâts ou utilise une armure, un texte défilant apparaît près de son jeton."
+                        "hint": "Quand un personnage subit des dégâts ou utilise une armure, un texte défilant apparaît près de son token."
                     },
                     "playerCanEditSheet": {
                         "label": "Autoriser la modification manuelle",
-                        "hint": "Les joueurs peuvent accéder aux paramètres manuels pour modifier les stats au-delà des règles."
+                        "hint": "Les joueurs peuvent accéder aux paramètres manuels pour modifier leurs statistiques sans suivre les règles."
                     }
                 }
             },
             "Homebrew": {
-                "newDowntimeMove": "Action de repos",
-                "downtimeMoves": "Actions de repos",
-                "nrChoices": "# d'actions par repos",
-                "resetMovesTitle": "Réinitialiser les actions de repos",
+                "newDowntimeMove": "Acte de repos",
+                "downtimeMoves": "Actes de repos",
+                "nrChoices": "# d'actes par repos",
+                "resetMovesTitle": "Réinitialiser les actes de repos",
                 "resetMovesText": "Voulez-vous vraiment réinitialiser?",
                 "FIELDS": {
                     "maxFear": { "label": "Peur max" },
@@ -2191,7 +2191,7 @@
                     "label": "Paramètres d'apparence",
                     "hint": "Modifie l'apparence de différentes parties du système",
                     "name": "Paramètres d'apparence",
-                    "duality": "Jets de DUALITÉ",
+                    "duality": "Jets de dualité",
                     "diceSoNice": {
                         "title": "Dice So Nice",
                         "hint": "Couleurs des dés de Dualité si le module est actif.",
@@ -2267,7 +2267,7 @@
                 "dualityRoll": {
                     "abilityCheckTitle": "Test de {ability}"
                 },
-                "featureTitle": "Trait de classe",
+                "featureTitle": "Spécificités de classe",
                 "healingRoll": {
                     "title": "Soin - {damage}",
                     "heal": "Soigner",
@@ -2284,25 +2284,25 @@
             "Notifications": {
                 "adversaryMissing": "L'adversaire lié n'existe plus.",
                 "beastformInapplicable": "Une forme bestiale ne peut être appliquée qu'à un personnage.",
-                "beastformAlreadyApplied": "Le personnage a déjà une forme bestiale!",
+                "beastformAlreadyApplied": "Le personnage a déjà une forme bestiale !",
                 "noTargetsSelected": "Aucune cible n'est sélectionnée.",
-                "attackTargetDoesNotExist": "Le jeton cible n'existe plus.",
+                "attackTargetDoesNotExist": "Le token cible n'existe plus.",
                 "insufficentAdvancements": "Vous n'avez pas assez d'avancements.",
                 "noAssignedPlayerCharacter": "Vous n'avez pas de personnage assigné.",
-                "noSelectedToken": "Vous n'avez pas de jeton sélectionné.",
-                "onlyUseableByPC": "Ne peut être utilisé que par un jeton de PJ.",
+                "noSelectedToken": "Vous n'avez pas de token sélectionné.",
+                "onlyUseableByPC": "Ne peut être utilisé que par un token de PJ.",
                 "dualityParsing": "Le jet de Dualité n'est pas formaté correctement.",
                 "attributeFaulty": "L'attribut fourni n'existe pas.",
                 "domainCardWrongDomain": "Vous n'avez pas accès à ce domaine.",
-                "domainCardToHighLevel": "La carte est d'un niveau trop élevé.",
-                "domainCardDuplicate": "Vous avez déjà cette carte de domaine!",
-                "noSelectionsLeft": "Plus rien à sélectionner!",
-                "alreadySelectedClass": "Vous avez déjà cette classe!",
+                "domainCardToHighLevel": "La carte est d'un niveau trop élevé !",
+                "domainCardDuplicate": "Vous avez déjà cette carte de domaine !",
+                "noSelectionsLeft": "Plus rien à sélectionner !",
+                "alreadySelectedClass": "Vous avez déjà cette classe !",
                 "classAlreadySelected": "Le personnage a déjà une classe.",
                 "subclassAlreadySelected": "Le personnage a déjà une sous-classe.",
-                "noClassSelected": "Votre personnage n'a pas de classe sélectionnée!",
-                "lacksDomain": "Votre personnage n'a pas le domaine de la carte!",
-                "duplicateDomainCard": "Vous avez déjà une carte de ce domaine!",
+                "noClassSelected": "Votre personnage n'a pas de classe sélectionnée !",
+                "lacksDomain": "Votre personnage n'a pas le domaine de la carte !",
+                "duplicateDomainCard": "Vous avez déjà une carte de ce domaine !",
                 "missingClassOrSubclass": "Le personnage n'a pas de classe et/ou sous-classe.",
                 "tooHighLevel": "Le niveau du personnage ne peut pas dépasser le maximum.",
                 "tooLowLevel": "Le niveau du personnage ne peut pas être en dessous du niveau de départ.",
@@ -2311,34 +2311,34 @@
                 "missingClass": "Vous n'avez pas de classe sélectionnée.",
                 "missingMulticlass": "Multiclasse manquante",
                 "wrongDomain": "La carte ne fait pas partie de vos domaines.",
-                "cardTooHighLevel": "La carte est d'un niveau trop élevé!",
+                "cardTooHighLevel": "La carte est d'un niveau trop élevé !",
                 "duplicateCard": "Vous ne pouvez pas sélectionner la même carte plusieurs fois.",
-                "notPrimary": "L'arme n'est pas une arme principale!",
-                "notSecondary": "L'arme n'est pas une arme secondaire!",
+                "notPrimary": "L'arme n'est pas une arme principale !",
+                "notSecondary": "L'arme n'est pas une arme secondaire !",
                 "itemTooHighTier": "L'objet doit être de niveau 1.",
                 "primaryIsTwoHanded": "Impossible de sélectionner une arme secondaire si la principale est à deux mains!",
-                "noMoreMoves": "Vous ne pouvez pas choisir d'autres actions de repos.",
+                "noMoreMoves": "Vous ne pouvez pas choisir d'autres Actes de repos.",
                 "damageAlreadyNone": "Les dégâts ont déjà été réduits à zéro.",
                 "noAvailableArmorMarks": "Vous n'avez plus d'Emplacements d'Armure disponibles.",
                 "notEnoughStress": "Vous n'avez pas assez de Stress.",
                 "damageIgnore": "{character} n'a pas subi de dégâts.",
-                "featureIsMissing": "Trait manquant.",
+                "featureIsMissing": "Spécificité manquante.",
                 "actionIsMissing": "Action manquante.",
                 "attackIsMissing": "Attaque manquante.",
                 "unownedActionMacro": "Impossible de créer une macro d'utilisation pour une action qui n'est pas sur votre personnage.",
                 "unownedAttackMacro": "Impossible de créer une macro d'utilisation pour une attaque qui n'appartient pas à un de vos personnages.",
-                "featureNotHope": "Ce trait est utilisé comme autre chose qu'un trait d'Espoir et ne peut être utilisé ici.",
-                "featureNotClass": "Ce trait est utilisé comme autre chose qu'un trait de Classe et ne peut être utilisé ici.",
-                "featureNotPrimary": "Ce trait est utilisé comme autre chose qu'un trait Primaire et ne peut être utilisé ici.",
-                "featureNotSecondary": "Ce trait est utilisé comme autre chose qu'un trait Secondaire et ne peut être utilisé ici.",
-                "featureNotFoundation": "Ce trait est utilisé comme autre chose qu'un trait de Fondation et ne peut être utilisé ici.",
-                "featureNotSpecialization": "Ce trait est utilisé comme autre chose qu'un trait de Spécialisation et ne peut être utilisé ici.",
-                "featureNotMastery": "Ce trait est utilisé comme autre chose qu'un trait de Maîtrise et ne peut être utilisé ici.",
+                "featureNotHope": "Cette spécificité est utilisée comme autre chose qu'une spécificité d'Espoir et ne peut être utilisé ici.",
+                "featureNotClass": "Cette spécificité est utilisée comme autre chose qu'une spécificité de Classe et ne peut être utilisé ici.",
+                "featureNotPrimary": "Cette spécificité est utilisée comme autre chose qu'une spécificité Primaire et ne peut être utilisé ici.",
+                "featureNotSecondary": "Cette spécificité est utilisée comme autre chose qu'une spécificité Secondaire et ne peut être utilisé ici.",
+                "featureNotFoundation": "Cette spécificité est utilisée comme autre chose qu'une spécificité de Fondation et ne peut être utilisé ici.",
+                "featureNotSpecialization": "Cette spécificité est utilisée comme autre chose qu'une spécificité de Spécialisation et ne peut être utilisé ici.",
+                "featureNotMastery": "Cette spécificité est utilisée comme autre chose qu'une spécificité de Maîtrise et ne peut être utilisé ici.",
                 "beastformMissingEffect": "La forme bestiale n'a pas d'effet de transformation. Elle ne peut pas être utilisée.",
                 "beastformToManyAdvantages": "Vous ne pouvez plus sélectionner d'avantages.",
-                "beastformToManyFeatures": "Vous ne pouvez plus sélectionner de traits.",
+                "beastformToManyFeatures": "Vous ne pouvez plus sélectionner de spécificités.",
                 "beastformEquipWeapon": "Vous ne pouvez pas utiliser d'armes sous forme bestiale.",
-                "loadoutMaxReached": "Limite de Main atteinte. Déplacez une carte vers le Coffre, ou augmentez la limite dans les paramètres maison.",
+                "loadoutMaxReached": "Limite de votre Main atteinte. Déplacez au moins une carte de domaine vers le coffre-fort ou augmentez la limite dans les paramètres personnalisés si vous le souhaitez.",
                 "domainMaxReached": "Limite de domaines pour la classe atteinte. Augmentez la limite dans les paramètres maison si vous le souhaitez.",
                 "insufficientResources": "Ressources insuffisantes.",
                 "multiclassAlreadyPresent": "Vous avez déjà une classe et une multiclasse.",
@@ -2356,8 +2356,8 @@
                 "moreOptions": "Plus d'options",
                 "equip": "Équiper",
                 "unequip": "Déséquiper",
-                "sendToVault": "Envoyer au Coffre",
-                "sendToLoadout": "Envoyer à la main",
+                "sendToVault": "Envoyer dans le Caveau",
+                "sendToLoadout": "Envoyer dans la Main",
                 "makeDeathMove": "Faire un Acte de mort",
                 "rangeAndTarget": "Portée et cible",
                 "dragApplyEffect": "Glissez l'effet pour l'appliquer au PNJ",
