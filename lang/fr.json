@@ -189,7 +189,11 @@
                     "title": "Sous-classe multiclasse",
                     "text": "Voulez-vous ajouter cette sous-classe en tant que sous-classe multiclasse ?"
                 },
-                "cannotRemoveCoreExperience": "Vous utilisez la montée de niveau automatique. Vous ne pouvez pas supprimer une expérience obtenue par la progression normale."
+                "cannotRemoveCoreExperience": "Vous utilisez la montée de niveau automatique. Vous ne pouvez pas supprimer une expérience obtenue par la progression normale.",
+                "companionLevelup": {
+                    "confirmTitle": "Montée de niveau du Compagnon",
+                    "confirmText": "Voulez-vous faire gagner {levelChange} niveaux à {name} ? (Vous pouvez le faire manuellement plus tard)"
+                }
             },
             "Companion": {
                 "FIELDS": {
@@ -233,13 +237,14 @@
         },
         "APPLICATIONS": {
             "CharacterCreation": {
-                "setupTabs": {
+                "tabs": {
                     "ancestry": "Ascendance",
                     "community": "Communauté",
                     "class": "Classe",
                     "experience": "Expérience",
                     "traits": "Traits",
-                    "domainCards": "Cartes de Domaine"
+                    "domainCards": "Cartes de Domaine",
+					"equipment": "Équipement"
                 },
                 "ancestryNamePlaceholder": "Nom de votre ascendance",
                 "buttonTitle": "Création de personnage",
@@ -399,7 +404,7 @@
                     },
                     "bonded": {
                         "name": "Lié",
-                        "description": "Lorsque vous cochez votre dernier PV, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6 sur l'un deux, votre compagnon vous aide à vous relever. Effacez votre dernier PV et revenez dans la scène."
+                        "description": "Lorsque vous cochez votre dernier PV, votre compagnon se précipite à vos côtés pour vous réconforter. Jetez un nombre de d6 égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6 sur l'un deux, votre compagnon vous aide à vous relever. Effacez votre dernier PV et revenez dans la scène."
                     }
                 },
                 "choiceDescriptions": {
@@ -436,7 +441,7 @@
                     "armored": "Lorsque votre compagnon subit des dégâts, vous pouvez cocher un de vos Emplacements d'Armure au lieu de cocher un Stress.",
                     "vicious": "Augmentez le dé de dégâts ou la portée de votre compagnon d'un cran (d6 en d8, Courte en Longue, etc.)",
                     "resilient": "Votre compagnon gagne un emplacement de Stress supplémentaire.",
-                    "bonded": "Lorsque vous cochez votre dernier PV, votre compagnon se précipite à vos côtés pour vous réconforter. Faites un jet de dés d6s égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6, votre compagnon vous aide à vous relever. Effacez votre dernier PV et revenez dans la scène.",
+                    "bonded": "Lorsque vous cochez votre dernier PV, votre compagnon se précipite à vos côtés pour vous réconforter. Jetez un nombre de d6 égal au nombre de points de Stress libres, et remplissez votre barre de Stress. Si vous obtenez un 6, votre compagnon vous aide à vous relever. Effacez votre dernier PV et revenez dans la scène.",
                     "aware": "Votre compagnon gagne un bonus permanent de +2 à son Évasion."
                 },
                 "selections": {
@@ -506,7 +511,7 @@
             },
             "ResourceDice": {
                 "title": "Ressource {name}",
-                "rerollDice": "Re-jet de dé"
+                "rerollDice": "Relancer les dés"
             }
         },
         "CLASS": {
@@ -729,11 +734,11 @@
                 },
                 "resilient": {
                     "name": "Résiliente",
-                    "description": "Avant de cocher votre dernier Emplacement d'Armure, faites un jet de d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans cocher d'Emplacement d'Armure.",
+                    "description": "Avant de cocher votre dernier Emplacement d'Armure, jetez un d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans cocher d'Emplacement d'Armure.",
                     "actions": {
                         "resilient": {
                             "name": "Résiliente",
-                            "description": "Avant de cocher votre dernier Emplacement d'Armure, faites un jet de d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans cocher d'Emplacement d'Armure."
+                            "description": "Avant de cocher votre dernier Emplacement d'Armure, jetez un d6. Sur un résultat de 6, réduisez la gravité d'un seuil sans cocher d'Emplacement d'Armure."
                         }
                     }
                 },
@@ -759,11 +764,11 @@
                 },
                 "timeslowing": {
                     "name": "Ralentisseur de temps",
-                    "description": "Cochez un Emplacement d'Armure pour faire un jet de d4 et cocher son résultat en bonus à votre Évasion contre une attaque entrante.",
+                    "description": "Cochez un Emplacement d'Armure pour jeter un d4 et cocher son résultat en bonus à votre Évasion contre une attaque entrante.",
                     "actions": {
                         "slowTime": {
                             "name": "Ralentir le temps",
-                            "description": "Cochez un Emplacement d'Armure pour faire un jet de d4 et ajouter son résultat en bonus à votre Évasion contre une attaque entrante."
+                            "description": "Cochez un Emplacement d'Armure pour jeter un d4 et ajouter son résultat en bonus à votre Évasion contre une attaque entrante."
                         }
                     }
                 },
@@ -816,6 +821,10 @@
                     "name": "Mort",
                     "description": "Le personnage est mort"
                 },
+                "defeated": {
+                    "name": "Vaincu",
+                    "description": "Cet adversaire est vaincu."
+                },
                 "hidden": {
                     "name": "Caché",
                     "description": "Tant qu'une créature est cachée, elle ne peut pas être ciblée directement par des attaques et tous les jets contre elle sont faits avec un désavantage.\nLorsqu'une créature cachée se déplace ou attaque, elle n'est plus cachée. Cependant, si une créature est cachée lorsqu'elle commence à attaquer, le jet a un avantage ; la condition Caché n'est effacée qu'après la résolution de l'attaque."
@@ -851,11 +860,11 @@
             "DeathMoves": {
                 "avoidDeath": {
                     "name": "Éviter la Mort",
-                    "description": "Vous tombez inconscient temporairement et travaillez avec le MJ pour décrire comment la situation s'aggrave à cause de cela. Puis, faites un jet de votre dé Peur ; si sa valeur est égale ou inférieure à votre Niveau, prenez une Cicatrice."
+                    "description": "Vous tombez inconscient temporairement et travaillez avec le MJ pour décrire comment la situation s'aggrave à cause de cela. Puis, jetez votre dé Peur ; si sa valeur est égale ou inférieure à votre Niveau, prenez une Cicatrice."
                 },
                 "riskItAll": {
                     "name": "Tout Risquer",
-                    "description": "Faites un jet de vos dés de Dualité. Si l'Espoir est plus élevé, vous restez debout et effacez une quantité de Points de Vie et/ou de Stress égales à la valeur du dé Espoir (répartissez la valeur du dé Espoir comme vous le souhaitez). Si votre dé Peur est plus élevé, vous traversez le voile de la mort. Si les dés de Dualité sont à égalité, vous restez debout et effacez tous vos Points de Vie et votre Stress."
+                    "description": "Jetez vos dés de Dualité. Si l'Espoir est plus élevé, vous restez debout et effacez une quantité de Points de Vie et/ou de Stress égales à la valeur du dé Espoir (répartissez la valeur du dé Espoir comme vous le souhaitez). Si votre dé Peur est plus élevé, vous traversez le voile de la mort. Si les dés de Dualité sont à égalité, vous restez debout et effacez tous vos Points de Vie et votre Stress."
                 },
                 "blazeOfGlory": {
                     "name": "Éclat de Gloire",
@@ -1001,8 +1010,8 @@
                     "short": "FOR",
                     "verb": {
                         "lift": "Soulever",
-                        "smash": "Casser",
-                        "grapple": "Lutter"
+                        "smash": "Fracasser",
+                        "grapple": "Empoigner"
                     }
                 },
                 "finesse": {
@@ -1010,7 +1019,7 @@
                     "short": "FIN",
                     "verb": {
                         "control": "Contrôler",
-                        "hide": "Se Cacher",
+                        "hide": "Cacher",
                         "tinker": "Bricoler"
                     }
                 },
@@ -1020,16 +1029,16 @@
                     "verb": {
                         "perceive": "Percevoir",
                         "sense": "Sentir",
-                        "navigate": "Naviguer"
+                        "navigate": "Se repérer"
                     }
                 },
                 "presence": {
                     "name": "Présence",
-                    "short": "PRE",
+                    "short": "PRÉ",
                     "verb": {
                         "charm": "Charmer",
-                        "perform": "Représenter",
-                        "deceive": "Tromper"
+                        "perform": "Jouer",
+                        "deceive": "Duper"
                     }
                 },
                 "knowledge": {
@@ -1865,7 +1874,8 @@
                 "tier3": "Rang 3",
                 "tier4": "Rang 4",
                 "domains": "Domaines",
-                "downtime": "Repos"
+                "downtime": "Repos",
+				"rules": "Règles"
             },
             "Tiers": {
                 "1": "Rang 1",
@@ -1902,7 +1912,7 @@
             "dropActorsHere": "Déposez des Acteurs ici",
             "dropFeaturesHere": "Déposez les Spécificités ici",
             "duality": "Dualité",
-            "dualityRoll": "Jet de dualité",
+            "dualityRoll": "Jet de Dualité ",
             "enabled": "Activé",
             "evasion": "Évasion",
             "equipment": "Équipement",
@@ -1934,6 +1944,7 @@
             "itemResource": "Ressource d'objet",
             "label": "Étiquette",
             "level": "Niveau",
+			"levelShort": "Nv",
             "levelUp": "Passer au niveau suivant",
             "loadout": "Main",
             "max": "Max",
@@ -2081,7 +2092,12 @@
                 "FIELDS": {
                     "displayFear": { "label": "Affichage de la Peur" },
                     "dualityColorScheme": { "label": "Style du chat" },
-                    "showGenericStatusEffects": { "label": "Afficher les effets de statut de Foundry" }
+                    "showGenericStatusEffects": { "label": "Afficher les effets de statut de Foundry" },
+                    "expandedTitle": "Développer les descriptions automatiquement",
+                    "extendCharacterDescriptions": { "label": "Personnages" },
+                    "extendAdversaryDescriptions": { "label": "Adversaires" },
+                    "extendEnvironmentDescriptions": { "label": "Environnements" },
+                    "extendItemDescriptions": { "label": "Objets" }
                 },
                 "fearDisplay": {
                     "token": "Jetons",
@@ -2098,6 +2114,13 @@
                     "damageReductionRulesDefault": {
                         "label": "Règles de réduction de dégâts par défaut",
                         "hint": "Activer les règles d'armure et de réduction des dégâts par défaut"
+                    },
+                    "defeated": {
+                        "enabled": { "label": "Activé" },
+                        "overlay": { "label": "Effet de l'overlay" },
+                        "characterDefault": { "label": "Défaut pour un Personnage vaincu" },
+                        "adversaryDefault": { "label": "Défaut pour un Adversaire vaincu" },
+                        "companionDefault": { "label": "Défaut pour un Compagnon vaincu" }
                     },
                     "hopeFear": {
                         "label": "Espoir & Peur",
@@ -2130,6 +2153,9 @@
                         "label": "Autoriser la modification manuelle",
                         "hint": "Les joueurs peuvent accéder aux paramètres manuels pour modifier leurs statistiques sans suivre les règles."
                     }
+                },
+                "defeated": {
+                    "title": "Comportement des acteurs Vaincus"
                 }
             },
             "Homebrew": {
@@ -2265,7 +2291,7 @@
                     "title": "Carte de Domaine"
                 },
                 "dualityRoll": {
-                    "abilityCheckTitle": "Test de {ability}"
+                    "abilityCheckTitle": "Jet de Dualité - {ability}"
                 },
                 "featureTitle": "Spécificités de classe",
                 "healingRoll": {
@@ -2291,7 +2317,7 @@
                 "noAssignedPlayerCharacter": "Vous n'avez pas de personnage assigné.",
                 "noSelectedToken": "Vous n'avez pas de token sélectionné.",
                 "onlyUseableByPC": "Ne peut être utilisé que par un token de PJ.",
-                "dualityParsing": "Le jet de Dualité n'est pas formaté correctement.",
+                "dualityParsing": "Le jet d'action n'est pas formaté correctement.",
                 "attributeFaulty": "L'attribut fourni n'existe pas.",
                 "domainCardWrongDomain": "Vous n'avez pas accès à ce domaine.",
                 "domainCardToHighLevel": "La carte est d'un niveau trop élevé !",
@@ -2369,7 +2395,8 @@
                 "rulesOn": "Règles actives",
                 "rulesOff": "Règles inactives",
                 "remainingUses": "Usages rafraîchis à {type}",
-                "rightClickExtand": "Clic droit pour développer"
+                "rightClickExtand": "Clic droit pour développer",
+                "companionPartnerLevelBlock": "Le compagnon a besoin qu'on lui assigne un partenaire pour pouvoir monter de niveau."            
             }
         }
     }
