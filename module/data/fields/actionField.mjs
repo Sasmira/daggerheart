@@ -82,9 +82,10 @@ export class ActionsField extends MappingField {
  */
 export class ActionField extends foundry.data.fields.ObjectField {
     getModel(value) {
+        if(value && !value.type) value.type = 'attack';
         return (
             game.system.api.models.actions.actionsTypes[value.type] ??
-            game.system.api.models.actions.actionsTypes.attack
+            null
         );
     }
 
@@ -93,7 +94,6 @@ export class ActionField extends foundry.data.fields.ObjectField {
     /** @override */
     _cleanType(value, options) {
         if (!(typeof value === 'object')) value = {};
-
         const cls = this.getModel(value);
         if (cls) return cls.cleanData(value, options);
         return value;
